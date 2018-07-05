@@ -4,7 +4,7 @@
 
 * 📚 The project is documented
 * ✅ The project is 100% functional
-* ⚠️ The project is not documented or is not 100% functional
+* ⚠️ The project is not documented and is not 100% functional
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
 ## TEK 1
