@@ -5,6 +5,7 @@
 * 📚 The project is documented
 * ✅ The project is 100% functional
 * ⚠️ The project is not documented and is not 100% functional
+* 🍎 The project does not concern computer development
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
 ## TEK 1
@@ -27,12 +28,12 @@
 ### Assembler language
 - [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) ⚠️
 ### French Module (B)
-- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) 
-- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) 
-- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) 
-- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) 
-- [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) 
-- [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) 
+- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) 🍎
+- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) 🍎 
+- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) 🍎
+- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) 🍎
+- [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) 🍎
+- [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) 🍎
 ### Unix system programming (PSU)
 - [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) ⚠️
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) ⚠️
@@ -54,7 +55,7 @@
 - [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) ⚠️
 - [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) ⚠️
 ### French Module
-- [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS)
-- [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT)
-- [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO)
-- [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) 
+- [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) 🍎
+- [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) 🍎
+- [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) 🍎
+- [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) 🍎 
