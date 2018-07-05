@@ -1,7 +1,7 @@
 # Epitech-Bundle 
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 > A curated list of awesome tools used by Epitech students and projects developed at Epitech.
-<br/>Note:
+
 * 📚 The project is documented
 * ✅ The project is 100% functional
 * ⚠️ The project is not documented or is not 100% functional
