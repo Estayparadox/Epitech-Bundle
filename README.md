@@ -1,10 +1,10 @@
 # Epitech-Bundle 
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 > A curated list of awesome tools used by Epitech students and projects developed at Epitech.
->note:
-> * 📚 The project is documented
-> * ✅ The project is 100% functional
-> * ⚠️ The project is not documented or is not 100% functional
+><br/>note:
+>* 📚 The project is documented
+>* ✅ The project is 100% functional
+>* ⚠️ The project is not documented or is not 100% functional
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
 ## TEK 1
