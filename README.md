@@ -10,23 +10,34 @@
 ## TEK 1
 ### C Pool
 - [Piscine-C](https://github.com/Estayparadox/Piscine-C) ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
+### Basic programming (CPE)
+### Unix system programming (PSU)
+### Graphic programming (MUL)
+### French Module (B)
+### SQL
 ### Synthesis pool
 - [automakefile](https://github.com/Estayparadox/Automakefile) 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
-- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file (SBMLParser project).
-- [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files (FASTAtool project).
+- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
+- [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
 - [Palindrome](https://github.com/Estayparadox/Palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
 ## TEK 2
 ### C++ Pool
 - [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 - [Trade](https://github.com/Estayparadox/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
+### Assembler language
+### French Module (B)
+### Unix system programming (PSU)
+### C++ Module
 ## TEK 3
 ### Java Module
-- [ToDoList](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list (ToDoList project).
+- [ToDoList](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
 ### DotNet Module
-- [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode (DOT_card_games_2017 project).
+- [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
 - [301dannon](https://github.com/Estayparadox/301dannon) 📚✅ - A benchmark of different sorting algorithms that compare their execution speed developed in Python language.
 - [302separation](https://github.com/Estayparadox/302separation) 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
 - [303make](https://github.com/Estayparadox/303make) 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
 - [304pacman](https://github.com/Estayparadox/304pacman) 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
 - [305construction](https://github.com/Estayparadox/305construction) 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
+### French Module
+- [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS)
