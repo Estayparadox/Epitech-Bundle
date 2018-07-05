@@ -25,12 +25,23 @@
 - [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 - [Trade](https://github.com/Estayparadox/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### Assembler language
+- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) ⚠️
 ### French Module (B)
+- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) 
+- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) 
+- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) 
+- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) 
+- [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) 
+- [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) 
 ### Unix system programming (PSU)
+- [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) ⚠️
+- [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) ⚠️
+- [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) ⚠️
 ### C++ Module
 ## TEK 3
 ### Java Module
-- [ToDoList](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
+- [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
+- [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) ⚠️
 ### DotNet Module
 - [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
@@ -39,5 +50,11 @@
 - [303make](https://github.com/Estayparadox/303make) 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
 - [304pacman](https://github.com/Estayparadox/304pacman) 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
 - [305construction](https://github.com/Estayparadox/305construction) 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
+- [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) ⚠️
+- [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) ⚠️
+- [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) ⚠️
 ### French Module
 - [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS)
+- [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT)
+- [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO)
+- [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) 
