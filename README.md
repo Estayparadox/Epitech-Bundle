@@ -7,9 +7,9 @@
 ### C Pool
 - [Piscine-C](https://github.com/Estayparadox/Piscine-C) - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
 ### Synthesis pool
-- [Automakefile](https://github.com/Estayparadox/Automakefile) - A shell program that auto-generate a makefile for Epitech projects.
-- [SBML-Parser](https://github.com/Estayparadox/SBML-Parser) - A program developed in C language that can organize huge amount of data from a SBML file (SBMLParser project).
-- [FASTA-Tool](https://github.com/Estayparadox/FASTA-Tool) - A program developed in C that give the right DNA sequence you want from FASTA data files (FASTAtool project).
+- [automakefile](https://github.com/Estayparadox/Automakefile) - A shell program that auto-generate a makefile for Epitech projects.
+- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) - A program developed in C language that can organize huge amount of data from a SBML file (SBMLParser project).
+- [FASTATool](https://github.com/Estayparadox/FASTA-Tool) - A program developed in C that give the right DNA sequence you want from FASTA data files (FASTAtool project).
 - [Palindrome](https://github.com/Estayparadox/Palindrome) - A C program that symply find if a number is a palindrome or not.
 ## TEK 2
 ### C++ Pool
@@ -17,7 +17,7 @@
 - [Trade](https://github.com/Estayparadox/Trade) - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ## TEK 3
 ### Java Module
-- [ToDo-List](https://github.com/Estayparadox/ToDo-List) - A Java mobile application that give users possibility to create and manage their ToDo list (ToDoList project).
+- [ToDoList](https://github.com/Estayparadox/ToDo-List) - A Java mobile application that give users possibility to create and manage their ToDo list (ToDoList project).
 ### DotNet Module
 - [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) - A Coinche based game developed in C#, Solo and multiplayer mode (DOT_card_games_2017 project).
 ### Maths
