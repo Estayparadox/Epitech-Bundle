@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>184834336819-shk137t2057apu4o9u6npqeiffcuplp0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.184834336819-shk137t2057apu4o9u6npqeiffcuplp0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqcLQZ6OOJGlAyo6yOtuZm4EPaoYX7fyQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>184834336819</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Epitech.Epicture</string>
+	<key>PROJECT_ID</key>
+	<string>epicture-461ba</string>
+	<key>STORAGE_BUCKET</key>
+	<string>epicture-461ba.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:184834336819:ios:e5b9c428dc00026a</string>
+	<key>DATABASE_URL</key>
+	<string>https://epicture-461ba.firebaseio.com</string>
+</dict>
+</plist>

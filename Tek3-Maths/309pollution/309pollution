@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import csv
+import operator
+
+### POINT CLASS ###
+
+class Point:
+
+    def __init__(self, x, y, p):
+        self._x = x
+        self._y = y
+        self._p = p
+
+    def _get_x(self):
+        return _x
+
+    def _get_y(self):
+        return _y
+
+    def _get_p(self):
+        return _p
+    
+### GLOBALS ###
+
+pol = [[]]
+
+### PRINTS ###
+
+def printUsage(code):
+    print("USAGE:")
+    print("\t./309pollution n f x y")
+    print("DESCRIPTION:")
+    print("\tn\tnumber of points on grid along the axes.")
+    print("\tf\tcsv file composed of the shape's line x;y;p")
+    print("\tx\tabscissa of the point whose pollution level we want to know.")
+    print("\ty\torder of the point whose pollution level we want to know.")
+    if (code == 0):
+        exit(0)
+    elif (code == 1):
+        print("\nBad parameter: There must be 5 inputs")
+        exit(84)
+    elif (code == 2):
+        print("\nBad parameter: There is no file")
+        exit(84)
+    elif (code == 3):
+        print("\nFile Error: Can't open file")
+        exit(84)
+    elif (code == 21):
+        print("\nBad parameter: n must be higher than 0")
+        exit(84)
+    elif (code == 22):
+        print("\nBad parameter: x must be higher than 0")
+        exit(84)
+    elif (code == 23):
+        print("\nBad parameter: x must be lower than n")
+        exit(84)
+    elif (code == 24):
+        print("\nBad parameter: y must be higher than 0")
+        exit(84)
+    elif (code == 25):
+        print("\nBad parameter: y must be lower than n")
+        exit(84)
+    else:
+        print("test")
+        exit(84)
+        
+### ALGO ###
+
+def initBezier(size, x, y, csvres):
+    global pol
+    elt = 0
+    print("Size = %d\n" % size)
+    xx = (size - 1 - x) / (size - 1)
+    print("x = %f\n" % xx)
+    yy = (size - 1 - y) / (size - 1)
+    print("y = %f\n" % yy)
+    i = 0
+    j = 0
+    for i in range(size):
+        tmp = []
+        for j in range(size):
+            if ((elt < csvres) and (csvres[elt][0] == i) and (csvres[elt][1] == j)):
+                tmp.append(csvres[elt][2])
+            else:
+                tmp.append(0)
+        pol.append(tmp)
+
+def algoBezier(n, x, y, pol):
+    tmp = 0
+    i = 0
+    j = 0
+    for i in range(size):
+        for j in range(size):
+            tmp = tmp + algoBernstein(x, size, i + 1) * algoBernstein(y, size, j + 1) * pol[i][j]
+    print("%.2f") % tmp
+
+def algoBernstein(t, m, k):
+    result = 0
+    factM = myFact(m)
+    factK = myFact(k)
+    mK = m - k
+    factMK = myFact(mK)
+    result = (factM / (factK * factMK))
+    result = result * pow(t, k)
+    result = result * pow(1.0 - t, m - k)
+    print("t = %f, m = %d, k = %d, result = %f\n") % (t, m, k, result)
+    return result
+
+def myFact(n):
+    if (n < 2):
+        return 1
+    else:
+        return n*myFact(n - 1)
+    
+### PARSER ###
+
+def checkArg(n, x, y):
+    if (n < 0):
+        printUsage(21)
+    elif (x < 0):
+        printUsage(22)
+    elif (x > n):
+        printUsage(23)
+    elif (y < 0):
+        printUsage(24)
+    elif (y > n):
+        printUsage(25)
+
+### MAIN ###
+
+def checkFile():
+    pointList = []
+    if (len(sys.argv) == 2):
+        if sys.argv[1] == "-h":
+            printUsage(0)
+        else:
+            printUsage(1)
+    elif (len(sys.argv) != 5):
+        printUsage(1)
+    n = int(sys.argv[1])
+    x = int(sys.argv[3])
+    y = int(sys.argv[4])
+    checkArg(n, x, y)
+    try:    
+        with open(sys.argv[2], newline='') as csvfile:
+            fileLine = csv.reader(csvfile, delimiter=';')
+            for line in fileLine:
+                print("x: %d, y: %d, p: %d" % (int(line[0]), int(line[1]), int(line[2])))
+                pointList.append(Point(int(line[0]), int(line[1]), int(line[2])))
+    except:
+        printUsage(3)
+
+    initBezier(n, x, y, pointList)
+    algoBezier(n ,x, y)
+    exit(0)
+
+checkFile();

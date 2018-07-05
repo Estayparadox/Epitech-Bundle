@@ -1,0 +1,104 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys
+from math import *
+
+F1 = 0
+F2 = 0
+F3 = 0
+F4 = 0
+oatmeal = 0
+wheat = 0
+corn = 0
+barley = 0
+soy = 0
+
+### ALGO ###
+
+def checkInputs():
+    global F1, F2, F3, F4, oatmeal, wheat, corn, barley, soy
+    print (F1, F2, F3, F4, oatmeal, wheat, corn, barley, soy)
+    print ("resources:  %d F1, %d F2, %d F3, %d F4" % (F1, F2, F3, F4))
+    print ("\noatmeal:  X units at € %d /unit" % (oatmeal))
+    print ("wheat:  X units at € %d /unit" % (wheat))
+    print ("corn:  X units at € %d /unit" % (corn))
+    print ("barley:  X units at € %d /unit" % (barley))
+    print ("soy:  X units at € %d /unit" % (soy))
+    print ("total production value: € X")
+    exit(0)
+
+def checkArgs():
+    global F1, F2, F3, F4, oatmeal, wheat, corn, barley, soy
+    if (oatmeal == 0):
+        print ("The price of one unit of oatmeal can not be 0.")
+        printSyntax();
+    elif (wheat == 0):
+        print ("The price of one unit of wheat can not be 0.")
+        printSyntax();
+    elif (corn == 0):
+        print ("The price of one unit of corn can not be 0.")
+        printSyntax();
+    elif(barley == 0):
+        print ("The price of one unit of barley can not be 0.")
+        printSyntax();
+    elif(soy == 0):
+        print ("The price of one unit of soy can not be 0.")
+        printSyntax();
+    else:
+        checkInputs()
+        
+### PRINTS ###
+
+def printUsage():
+    print ("\nUSAGE:\n\t./307multigrains n1 n2 n3 n4 Po Pw Pc Pb Ps [-h]")
+    print ("DESCRIPTION:\n\tn1\tnumber of tons of grains F1")
+    print ("\tn2\tnumber of tons of grains F2")
+    print ("\tn3\tnumber of tons of grains F3")
+    print ("\tn4\tnumber of tons of grains F4")
+    print ("\tPo\tprice in euros of one unit of oatmeal")
+    print ("\tPw\tprice in euros of one unit of wheat")
+    print ("\tPc\tprice in euros of one unit of corn")
+    print ("\tPb\tprice in euros of one unit of barley")
+    print ("\tPs\tprice in euros of one unit of soy\n")
+    exit(0)
+
+def printSyntax():
+    print ("\nUSAGE:\n\t./307multigrains n1 n2 n3 n4 Po Pw Pc Pb Ps [-h]")
+    print ("DESCRIPTION:\n\tn1\tnumber of tons of grains F1")
+    print ("\tn2\tnumber of tons of grains F2")
+    print ("\tn3\tnumber of tons of grains F3")
+    print ("\tn4\tnumber of tons of grains F4")
+    print ("\tPo\tprice in euros of one unit of oatmeal")
+    print ("\tPw\tprice in euros of one unit of wheat")
+    print ("\tPc\tprice in euros of one unit of corn")
+    print ("\tPb\tprice in euros of one unit of barley")
+    print ("\tPs\tprice in euros of one unit of soy\n")
+    exit(84)
+
+### MAIN ###
+
+def parser():
+    global F1, F2, F3, F4, oatmeal, wheat, corn, barley, soy
+    if (len(sys.argv) == 10):
+        F1 = int(sys.argv[1])
+        F2 = int(sys.argv[2])
+        F3 = int(sys.argv[3])
+        F4 = int(sys.argv[4])
+        oatmeal = int(sys.argv[5])
+        wheat = int(sys.argv[6])
+        corn = int(sys.argv[7])
+        barley = int(sys.argv[8])
+        soy = int(sys.argv[9])
+        checkArgs()
+    elif (len(sys.argv) == 2):
+        if (sys.argv[1] == "-h"):
+            printUsage()
+        else:
+            printSyntax()
+    else:
+        printSyntax()
+    exit(0)
+        
+parser();
+                            

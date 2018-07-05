@@ -1,0 +1,173 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys
+from math import *
+
+r0 = 0
+r5 = 0
+r10 = 0
+r15 = 0
+r20 = 0
+n = 0
+
+### SPLINES CLASS ###
+
+class Splines:
+    def __init__(self, rayon, number):
+        self.rayons = rayon
+        self.matrice = {}
+        self.solution = []
+        self.points = number
+
+        data[5][5] = {{1.0, 0.0, 0.0, 0.0, 0.0}
+                      {0.5, 2.0, 0.5, 0.0, 0.0}
+                      {0.0, 0.5, 2.0, 0.5, 0.0}
+                      {0.0, 0.0, 0.5, 2.0, 0.5}
+                      {0.0, 0.0, 0.0, 0.0, 1.0}}
+        
+        self.solution[0] = 0.0
+        for (i = 1; i < N - 1; i++):
+            self.solution[i] = 6.0 * (rayon[i + 1] - 2.0 * rayon[i] + rayon[i - 2]) / 50.0
+        self.solution[N - 1] = 0.0
+        self.matrice = new float*[N]
+        for (i = 0; i < N; i++):
+            self.matrice[I] = new float[N]
+            for (j = 0; j < N; j++):
+                self.matrice[i][j] = data[i][j]
+        
+    def gaussElim(self):
+        ratio = 0.0
+        for (int i = 0; i < (N - 1); i++):
+            for (int j = (i + 1); j < N; j++):
+                ratio = self.matrice[j][i] / self.matrice[i][i]
+                for (int k = i; k < N; k++):
+                    self.matrice[j][k] -= (ratio *self.matrice[i][k])
+            self.solution[j] -= (ratio * self.solution[i])
+
+    def substitution(self):
+        tmp = 0.0
+        self.solution[N - 1] = self.solution[N - 1] / self.matrice[N - 1][N - 1]
+        for (i = N - 2; i >= 0; i--):
+            tmp = self.solution[i]
+            for (int j = (i + 1); j < N; j++):
+                tmp -= (self.matrice[i][j] * self.matrice[j])
+            self.solution[i] = tmp / self.matrice[i][j]
+    
+    def algorithm():
+        self.gaussElim():
+        self.substitution();
+
+    def displayValue(i):
+        mini = -0.05;
+        maxi = 0.01;
+        if ((self.solution[i] > mini && self.solution[i] < maxi) && i < N - 1):
+            print("%.1f, ") % fabs(self.solution[i]))
+        else if (i < N - 1):
+            print("%.1f, ") % self.solution[i]
+        else:
+            print("%.1f,") % self.solution[i]
+
+    def displaySolution():
+        print("vector result: [")
+        for (i = 0; i < N; i++):
+            self.displayValue(i)
+        print("]\n")
+
+    def valueRayon(x):
+        if (x >= 0.0 && x < 5.0):
+            xi_1 = 0.0;
+            xi = 5.0;
+            d2fi_1 = self.solution[0];
+            d2fi = self.solution[1];
+            fi_1 = self.rayons[0];
+            fi = self.rayons[1];
+        else if (x >= 5.0 && x < 10.0):
+            xi_1 = 5.0;
+            xi = 10.0;
+            d2fi_1 = self.solution[1];
+            d2fi = self.solution[2];
+            fi_1 = self.rayons[1];
+            fi = self.rayons[2];
+        else if (x >= 10.0 && x < 15.0):
+            xi_1 = 10;
+            xi = 15.0;
+            d2fi_1 = self.solution[2];
+            d2fi = self.solution[3];
+            fi_1 = self.rayons[2];
+            fi = self.rayons[3];
+        else if (x >= 15.0 && x <= 20.0):
+            xi_1 = 15.0;
+            xi = 20.0;
+            d2fi_1 = self.solution[3];
+            d2fi = self.solution[4];
+            fi_1 = self.rayons[3];
+            fi = self.rayons[4];
+        return (- d2fi_1 * pow(x - xi, 3) / 30.0 + d2fi * pow(x - xi_1, 3) / 30.0 - ((fi_1 / 5.0) - 5.0 * d2fi_1 / 6.0) * (x - xi) + (fi / 5.0 - 5.0 * d2fi / 6.0) * (x - xi_1));
+
+    def algRayon():
+        inter = 20.0 / (self.points - 1)
+        for (x = 0; x <= 20.0; x = x + inter):
+            print("abscissa: %.1f\t radius: %.1f cm\n") % (x, valueRayon(x))
+
+### REGEX ###
+
+class Regex:
+    def __init__(self, number):
+        nbr = StringToNumber<float>(number)
+        if (nbr <= 0):
+            exit(84)
+        else:
+            return nbr
+
+    def checkNumber(self, number):
+        nbr = StringToNumber<int>(number)
+        if (nbr <= 0):
+            exit(84)
+        else:
+            return nbr
+        
+### PARSING ###
+
+def checkArg():
+    global r0, r5, r10, r15, r20, n
+    
+
+### PRINTS ###
+
+def printUsage():
+    print("\nUSAGE:\n\t./308reedpipies r0 r5 r10 r15 r20 n")
+    print("DESCRIPTION:")
+    print("\tro\tradius (in cm) of pipe at the 0cm abcissa.")
+    print("\tr5\tradius (in cm) of pipe at the 5cm abcissa.")
+    print("\tr1o\tradius (in cm) of pipe at the 10cm abcissa.")
+    print("\tr15\tradius (in cm) of pipe at the 15cm abcissa.")
+    print("\tr20\tradius (in cm) of pipe at the 20cm abcissa.")
+    
+### MAIN ###
+
+def parser():
+    rayons = [5]
+    nbr_points = 0
+    if (len(sys.argv) == 7):
+        for (i = 1; i < (len(sys.argv) - 1); ++i):
+            rayons[i - 1] = Regex.checkRayon(sys.argv[1])
+        nbr_points = regex.checkNumber(sys.argv[6])
+        newSpline = Spline(rayons, nbr_points)
+        newSpline.algorithm()
+        newSpline.displaySolution()
+        newSpline.algRayon()
+        exit(0)
+    elif (len(sys.argv) == 2):
+        if (sys.argv[1] == "-h"):
+            printUsage()
+            exit(0)
+        else:
+            printUsage()
+            exit(84)
+    else:
+        printUsage()
+        exit(84)
+    exit(0)
+
+parser();
