@@ -1,0 +1,596 @@
+Details administratifs:
+
+- Aucune forme de communication n'est permise.
+
+	- Vous devez avoir votre carte d'etudiant. Vous devez la poser face visible
+	  sur votre table
+
+	- Ceci est un examen, il est interdit de discuter, ecouter de la musique,
+	  faire du bruit, ou de produire toute autres nuisances pouvant deranger les
+	  autres etudiants ou perturber le bon deroulement de l'examen
+
+	- Vos telephones portables doivent etre eteints.
+	
+	- Il faudra utiliser le sous-repertoire "rendu" a la racine du compte,
+	  il contiendra les repertoires aux noms demandes pour chaque
+	  exercice.
+
+	- Chaque exercice doit etre realise dans le repertoire correspondant au 
+	  nom indique dans l'en-tete de chaque exercice.
+
+	- Le repertoire "rendu", doit contenir un fichier nomme "auteur"
+	  comprenant :
+		le login (ex: jog) suivi d'un '\n'.
+	  ce qui doit donner:
+
+	  jog@neutron> cat -e ~/rendu/auteur
+	  jog$
+
+	- C'est un programme qui s'occupe du ramassage, respectez les noms,
+	  les chemins, les fichiers et les repertoires ...
+
+	- LES DROITS DE VOS FICHIERS N'ONT AUCUNE IMPORTANCE, VOUS N'AVEZ DONC
+	  PAS BESOIN DE LES CHANGER (SAUF SI ON VOUS LE DEMANDE DANS LE SUJET).
+	
+	- En cas de probleme technique avec le sujet, on ne doit s'adresser qu'au
+	  surveillant uniquement.
+
+	- Tout materiel non explicitement autorise est strictement interdit.
+
+	- LES EXERCICES DOIVENT ETRE REALISES DANS L'ORDRE, la correction 
+	  de l'examen s'arretera des qu'un exercice sera considere comme faux.
+
+	- Toute sortie est definitive.
+
+
+Le Code :
+
+	- Des fonctions utiles sont parfois donnees dans le repertoire
+	  ~/sujet/misc
+
+	- Le releve du code est automatise, un programme testera le bon
+	  fonctionnement des exercices.
+
+	- Les fonctions autorisees sont indiquees dans l'en-tete de chaque 
+	  exercice. Vous pouvez recoder toutes les fonctions a votre guise.
+
+	- Toute fonction non autorisee explicitement est interdite.
+
+	- Vous avez le droit a des feuilles blanches et un stylo.
+
+	- Les exercices dit "subsidiaires" sont des exercices qui donnent des
+	  points si vous avez fait les exercices qui les precedent.
+
+	- Les exercices dit "bonus" sont des exercices qui donnent des points 
+	  supplementaires meme si vous ne faites pas les exercices qui les 
+	  precedent.
+
+	- Pour toute question apres l'examen, creez un ticket sur l'intra-bocal
+	  (http://intra-bocal.epitech.net), ou envoyez un mail a
+	  contact@staff.epita.fr
+-------------------------------------------------------------------------------
+Administrative details:
+
+- No communication of any kind is allowed.
+
+	- You must have your student card. You must put it, face up, on your desk.
+
+	- This is an exam, it is forbidden to talk, listen to music, make noise, or
+	  produce any kind of nuisance that may disturb other students or prevent
+	  this exam from running smoothly.
+
+	- Your cell phones must be OFF.
+
+	- You will have to use the "rendu" subdirectory at the root of your account,
+	  which shall contain the directories named according to each exercise's
+	  instructions.
+
+	- Each exercise must be carried out in the directory mentioned in the
+	  exercise's header.
+
+	- The "rendu" subdirectory must contain a file named "auteur", containing:
+	  the login (ex: jog) followed by a '\n'.
+
+	  It should be so:
+	  jog@neutron> cat -e ~/rendu/auteur
+	  jog$
+
+	- The collection will be handled by a program, so you must respect the
+	  names, paths, of all the files and directories...
+
+	- RIGHTS OF YOUR FILES ARE OF NO CONSEQUENCE, YOU DO NOT HAVE TO CHANGE
+	  THEM (EXCEPT IF THE SUBJECT ASKS YOU TO).
+
+	- In case of a technical problem with the subject, you have to ask a
+	  supervisor (and ONLY a supervisor).
+
+	- Any equipment that is not explicitly allowed is strictly forbidden.
+
+	- EXERCISES MUST BE CARRIED OUT IN ORDER. Grading will stop as soon as
+	  an exercise is deemed false.
+
+	- Any exit is definitive.
+
+
+The code:
+
+	- Useful functions are sometimes given in the ~/sujet/misc directory.
+
+	- Collection of the code is automated, and a program will check that
+	  your exercises work correctly.
+
+	- Allowed functions are specified in each exercise's header. You can
+	  re-code any function you like.
+
+	- Any function not explicitly allowed is forbidden.
+
+	- You have a right to blank sheets of paper and a pen.
+
+	- "Subsidiary" exercises are exercises that give points if you have
+	  done the previous exercises.
+
+	- "Bonus" exercises are exercises that give bonus points even if you
+	  haven't done the previous exercises.
+
+	- For any question after the exam, create a ticket on the intra-bocal
+	  (http://intra-bocal.epitech.net), or send a mail to
+	  contact@staff.epita.fr
+
+ ----------******------------*****------------******------------*****----------
+
+
+------------------- ******** -------------------
+
+Exercice 1 : conv_nbr
+__________________________
+
+Nom de l'executable  :          conv_nbr
+Nom du repertoire    :          ex_1
+Temps de realisation :          35 minutes.
+Fonction autorisees  :          printf, write
+Makefile             :          oui
+
+
+         Le programme prend en parametre trois
+         chaines de caractere: nbr, baseD et baseA.
+         Le programme respecte le synopsys suivant:
+                  ./conv_nbr "nbr" "baseD"  "baseA"
+         conv_nbr convertit nbr de la base baseD a la base baseA et affiche
+         la chaine resultat sur la sortie standard.
+
+         Ce programme doit gerer les nombres negatifs.
+         Ainsi que les entiers de (-2^31) a (2^31)-1.
+
+         nbr est bien la representation d'un nombre dans la baseD.
+         baseA et baseD sont des bases valides:
+               - pas de doublon
+               - au moins 2 digits.
+
+         On peut utiliser comme digits de la base, tous caracteres affichables.
+         Il ne peut y avoir qu'un seul signe '-' .
+         zero (0) est positif.
+
+(jog@almarita)./conv_nbr 123 0123456789 01 | cat -e
+1111011$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr 1111011 01 0123456789 | cat -e
+123$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789ABCDEF | cat -e
+-7B$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789 | cat -e
+-123$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 1 : conv_nbr
+__________________________
+
+Executable name      :          conv_nbr
+Directory name       :          ex_1
+Suggested time       :          35 minutes.
+Allowed functions    :          printf, write
+Makefile             :          yes
+
+
+         The program takes three strings as parameters :
+         nbr, baseB and baseA
+         The program respects the following synopsis:
+                  ./conv_nbr "nbr" "baseD" "baseA"
+         conv_nbr converts nbr from base baseD to base baseA and displays
+         the resulting string on the standard output.
+
+         This program must handle negative numbers, and integers
+         from (-2^31) to (2^31)-1.
+
+         nbr is the representation of a number in base baseD.
+         baseA and baseD are valid bases:
+               - no doubles
+               - at least 2 digits
+
+         A digit can be any printable character.
+         There can be only one '-' sign.
+         zero (0) is positive.
+
+
+(jog@almarita)./conv_nbr 123 0123456789 01 | cat -e
+1111011$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr 1111011 01 0123456789 | cat -e
+123$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789ABCDEF | cat -e
+-7B$
+(jog@almarita)
+
+(jog@almarita)./conv_nbr -123 0123456789 0123456789 | cat -e
+-123$
+(jog@almarita)
+
+
+------------------- ******** -------------------
+
+Exercice 2 : wdmatch
+_______________________
+Nom de l'executable     :       wdmatch
+Nom du repertoire       :       ex_2
+Temps de realisation    :       30 minutes.
+Fonction autorisees     :       write
+Makefile		:       oui
+
+
+
+	Le programme prend en parametres deux chaines de caracteres.
+
+	Le programme verifie qu'il est possible d'ecrire la premiere chaine
+	de caracteres a l'aide des caracteres de la deuxieme chaine, tout en
+	respectant l'ordre des caracteres dans la deuxieme chaine.
+
+	Si cela est possible, le programme renvoie la premiere chaine de 
+	caracteres suivi de '\n'.
+	
+	Le programme renvoie '\n' si il n'y a aucun parametre ou si leur nombre
+	est different de deux.
+
+
+exemple 1:
+(login@host)./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+(login@host)
+
+exemple 2:
+(login@host)./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e 
+quarante deux$
+(login@host)
+
+exemple 3:
+(login@host)./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+(login@host)
+
+exemple 4:
+(login@host)./wdmatch | cat -e
+$
+(login@host)
+-------------------------------------------------------------------------------
+Exercise 2 : wdmatch
+_______________________
+Executable name         :       wdmatch
+Directory name          :       ex_2
+Suggested time          :       30 minutes.
+Allowed functions       :       write
+Makefile                :       yes
+
+
+    The program takes two strings.
+
+    The program verifies that it is possible to write the first string
+    with characters from the second one, all the while respecting the
+    order of characters in the second string.
+
+    If this is possible, the program returns the first string followed
+    by '\n'.
+
+    Otherwise, or if there is not two parameters, the program displays '\n'.
+
+
+Example 1:
+(login@host)./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+(login@host)
+
+Example 2:
+(login@host)./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e 
+quarante deux$
+(login@host)
+
+Example 3:
+(login@host)./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+(login@host)
+
+Example 4:
+(login@host)./wdmatch | cat -e
+$
+(login@host)
+
+
+------------------- ******** -------------------
+
+Exercice 3 : infin_add
+_______________________
+Nom de l'executable  :          infin_add
+Nom du repertoire    :          ex_3
+Temps de realisation :          30 minutes.
+Fonction autorisee   :          malloc, free, my_putstr, my_putchar, write
+Makefile	     :		oui
+Langage		     :		C
+
+
+         Il s'agit de realiser un programme qui effectue une addition
+         infinie. Ce programme prend en parametre deux chaines de carateres
+         et ecrit une chaine de caractere qui est le resultat de l'operation
+	 en sortie standard.
+
+	 Il y a deux chaines passees en parametre.
+         Ces trois chaines sont des nombres, la chaine affichee est le resultat
+         de l'addition entre les deux chaines.
+         Le resultat sera suivi d'un '\n'.
+         Les nombres negatifs doivent etre precedes du signe "-".
+         Le resultat doit etre affiche sans espace. Aucun zero ne doit
+         preceder le nombre affiche.
+
+         Un nombre negatif doit etre precede d'un et d'un seul signe.
+
+         Tous les parametres seront bien formates.
+
+
+
+exemple 1:
+> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+>
+
+
+
+exemple 2:
+> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+>
+
+exemple 3
+> ./infin_add "-807965" "-34532" | cat -e
+-842497
+>
+-------------------------------------------------------------------------------
+Exercise 3 : infin_add
+_______________________
+Executable name      :          infin_add
+Directory name       :          ex_3
+Suggested time       :          30 minutes.
+Allowed functions    :          malloc, free, my_putstr, my_putchar, write
+Makefile             :          yes
+Language             :          C
+
+        You have to write a program that does an infinite addition.
+        This program takes two strings and writes a string representing
+        the result of the addition on the standard output.
+
+        There are two strings as parameters.
+        Both are numbers. The displayed string is the result of the addition
+        of both these strings.
+        The result will be followed by '\n'.
+        Negative numbers have to be preceded by a '-'.
+        The result must be displayed without spaces. No zeroes can precede
+        the result.
+
+        A negative number will be preceded by one and only one '-' sign.
+
+        All parameters are valid.
+
+
+Example 1:
+> ./infin_add "879879087" "67548976597" | cat -e
+68428855684$
+>
+
+Example 2:
+> ./infin_add "-876435" "987143265" | cat -e
+986266830$
+>
+
+Example 3
+> ./infin_add "-807965" "-34532" | cat -e
+-842497
+>
+
+
+------------------- ******** -------------------
+
+Exercice 4 : str_maxlenoc
+__________________________
+
+Nom de l'executable  :          str_maxlenoc
+Nom du repertoire    :          ex_4
+Temps de realisation :          30 minutes.
+Fonction autorisee   :          printf, write, malloc, free.
+Makefile             :          oui.
+
+
+         Ecrire le programme str_maxlenoc qui prend en parametres n chaines
+         de caracteres et qui affiche, suivi d'un '\n', la plus grande
+         chaine de caracteres incluse dans toutes les chaines passees en
+         parametres.
+         Si plusieurs chaines correspondent, on affichera celle qui apparait en
+         premier dans le premier parametre.
+
+         "" est forcement dans toutes les chaines.
+
+         Si aucun parametre n'est transmis, str_maxlenoc affiche '\n'.
+
+	 On dit que A est inclus dans B avec A et B des chaines de
+         caracteres si A est une sous-chaine de B ou si A et B sont identiques.
+
+exemple 1:
+(jog@almarita)./str_maxlenoc ab bac abacabccabcb
+a
+(jog@almarita)
+
+exemple 2:
+(jog@almarita)./str_maxlenoc bonjour salut bonjour bonjour
+u
+(jog@almarita)
+
+exemple 3:
+(jog@almarita)./str_maxlenoc xoxAoxo xoxAox  oxAox oxo  A ooxAoxx oxooxo Axo
+
+(jog@almarita)
+
+exemple 4:
+(jog@almarita)./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjourafg
+os
+(jog@almarita)
+
+exemple 5:
+(jog@almarita)./str_maxlenoc | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 4 : str_maxlenoc
+__________________________
+
+Executable name      :          str_maxlenoc
+Directory name       :          ex_4
+Suggested time       :          30 minutes.
+Allowed functions    :          printf, write, malloc, free.
+Makefile             :          yes
+
+
+        Write the str_maxlenoc program that takes n strings and displays,
+        followed by a '\n', the longest string present in every parameter.
+        If multiple strings match, display the one that appears first in the
+        first parameter.
+
+        "" is in every parameter.
+
+        If there are no parameters, display '\n'.
+
+        A is included in B with A and B strings if A is a substring of B or
+        A and B are identical.
+
+Example 1:
+(jog@almarita)./str_maxlenoc ab bac abacabccabcb
+a
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./str_maxlenoc bonjour salut bonjour bonjour
+u
+(jog@almarita)
+
+Example 3:
+(jog@almarita)./str_maxlenoc xoxAoxo xoxAox  oxAox oxo  A ooxAoxx oxooxo Axo
+
+(jog@almarita)
+
+Example 4:
+(jog@almarita)./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjourafg
+os
+(jog@almarita)
+
+Example 5:
+(jog@almarita)./str_maxlenoc | cat -e
+$
+(jog@almarita)
+
+
+------------------- ******** -------------------
+
+Exercice 5 : g-is-eq
+__________________________
+
+Nom de l'executable  :          g-is-eq
+Nom du repertoire    :          ex_5
+temps de realisation :          30 minutes
+Languages            :          C, Perl
+Fonctions autorisees :          (C uniquement) write, printf, malloc, free
+Makefile	     :          oui (obligatoire meme en Perl ou PHP)
+
+
+        Le programme prend en parametres deux chaines de caracteres.
+        Si ces deux chaines de caracteres ne sont pas presentes, le
+        programme affiche '\n'.
+        Ces deux chaines sont des suites de liens entres differentes
+        cellules.
+        Les liens sont separes par un espace.
+        Ces cellules sont representees par des chiffres et les liens
+        symbolises par '-'.
+        Si la cellule 2 est liee a la cellule 3, les representations seront
+        les suivantes :
+        soit - : "2-3".
+        ou   - : "3-2".
+        Les deux chaines representent deux graphes. Le programme devra
+        verifier que les deux graphes sont equivalents.
+        Si c'est le cas le programme devra afficher 1 suivi de '\n'.
+        Sinon il affichera 0 suivi de '\n'.
+        
+        On dit que deux graphes sont equivalents si, ormi le nom des
+        cellules, ils sont identiques.
+        Exemple: 1-2 4-3 3-1 1-4 est equivalent a : 1-12 3-1 2-12 3-12
+        alors que : 1-2 4-3 3-1 1-4 n'est pas equivalent a : 1-2 2-3 4-3 4-1
+
+	Le Makefile est obligatoire meme si le programme est en Perl ou en PHP.
+	Il est rappelle que la moulinette effacera l'executable avant de faire
+	make. 
+
+Exemple 1:
+(jog@almarita)./g-is-eq "0-1 1-3 2-5 5-1 3-6 9-0 9-5 4-8 8-2" "2-5 6-2 12-5 6-12 19-12 5-17 17-21 14-19 14-42" | cat -e
+1$
+
+Exemple 2:
+(jog@almarita)./g-is-eq "0-1 1-3 2-5 5-1 3-6 9-0 9-5 4-8 8-2" "2-5 63-2 12-5 6-12 19-21 5-17 17-12 14-19 41-42" | cat -e
+0$
+-------------------------------------------------------------------------------
+Exercise 5 : g-is-eq
+__________________________
+
+Executable name      :          g-is-eq
+Directory name       :          ex_5
+Suggested time       :          30 minutes
+Languages            :          C, Perl
+Allowed functions    :          (C only) write, printf, malloc, free
+Makefile             :          yes (even for Perl or PHP)
+
+        The program takes two strings.
+        If they are not both present, the program displays '\n'.
+        These strings are series of links between cells.
+        Links are separated by a single space.
+        The cells are numbers and the links are '-' signs.
+        If cell 2 is linked to cell 3, the representation will be:
+            - Either "2-3"
+            - Or "3-2"
+        These strings represent two graphs. The program must verify
+        that both graphs are equivalent.
+        If they are, the program displays '1' followed by '\n'.
+        Otherwise, it displays '0' followed by '\n'.
+
+        Two graphs are equivalent if, except for cell names, they
+        are identical.
+        Example: 1-2 4-3 3-1 1-4 is equivalent to : 1-12 3-1 2-12 3-12
+        Whereas : 1-2 4-3 3-1 1-4 is not equivalent to : 1-2 2-3 4-3 4-1
+
+        The Makefile is mandatory even for Perl or PHP.
+        The grading robot will remove the executable before calling make.
+
+Example 1:
+(jog@almarita)./g-is-eq "0-1 1-3 2-5 5-1 3-6 9-0 9-5 4-8 8-2" "2-5 6-2 12-5 6-12 19-12 5-17 17-21 14-19 14-42" | cat -e
+1$
+
+Example 2:
+(jog@almarita)./g-is-eq "0-1 1-3 2-5 5-1 3-6 9-0 9-5 4-8 8-2" "2-5 63-2 12-5 6-12 19-21 5-17 17-12 14-19 41-42" | cat -e
+0$

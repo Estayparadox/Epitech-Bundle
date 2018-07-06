@@ -1,0 +1,97 @@
+01. Afficher le titre des films (dans une colonne "titre film") qui ont comme id de genre 0, 6 ou 5 et dont leurs titres commence par la lettre E (case insensitive).
+SELECT `titre` AS `titre film`
+FROM `film`
+WHERE (`id_genre` = '0' OR `id_genre` = '5' OR `id_genre` = '6')
+AND `titre` LIKE 'E%';
+
+02. Faire une requete qui affiche l'id_film (id_film), le titre (titre) et le resume (resum film) de tous les films qui sont dans la table film du cinema.
+SELECT `id_film`, `titre`, `resum` AS `resum film`
+FROM `film`;
+
+03. Faire une requete qui affiche le titre des films en majuscule de la table film du cinema qui ont un id compris (inclu) entre 4, et 50. La colonne titre en majuscule devra s'appeler "titre_maj"
+SELECT UPPER(`titre`) AS `titre_maj`
+FROM `film`
+WHERE `id_film` >= 4 AND `id_film` <= 50;
+
+04. Faire une requete qui affiche le titre de tous les films dans la colonne titre, ordonnee par date de fin d'affiche decroissante
+SELECT `titre`
+FROM `film`
+ORDER BY `date_fin_affiche` DESC;
+
+05. On aimerai afficher le titre de tous les films en MD5, dans la colonne "titre md5" et en SHA1 dans la colonne "titre sha1"
+SELECT MD5(`titre`) AS `titre md5`, SHA1(`titre`) AS `titre sha1`
+FROM `film`;
+
+06. Faire une requete qui affiche le nombre de films qu'il y a dans la table film (nombre films)
+SELECT COUNT(`titre`) AS `nombre films`
+FROM `film`;
+
+07. Faire une une requete qui selectionne le titre (titre) des films contenant dans leur titre la chaine de caractere 'day' independament de la casse (case non sensitive, ca doit matcher dAy dAY etc..). Il faudra aussi que le genre des films soit egal Ã¯Â¿Â½ 1
+SELECT `titre`
+FROM `film`
+WHERE `titre` LIKE '%day%' and `id_genre` = 1;
+
+08. Afficher le titre (titre), date_debut_affiche (date_debut), id_distrib (id_distrib), le nom du distributeur (nom_distrib) de tous les films dont le nom contient 'death' independement de la casse (cad que le titre peu contenir dEaTh DeatH et tous ses derives. Si le film n'a pas de distributeur, il faut quand meme l'afficher.
+SELECT titre, date_debut_affiche, `film`.`id_distrib`, nom AS nom_distrib
+FROM film LEFT JOIN distrib ON film.id_distrib = distrib.id_distrib
+WHERE titre LIKE "%death%";
+
+09. Faire une requete qui compte tous les films associes qui ont des id de genre compris entre 2 et 5 (inclu). La requete affichera l'id du genre, et le nombre de films qu'il y a dans ce genre et le nom du genre. Il y aura donc une colonne id_genre, "nom genre" et "nombre films" La requete doit afficher l'id du genre, meme si on n'arrive pas Ã¯Â¿Â½ recuperer son nom de genre
+SELECT `film`.`id_genre`, `genre`.`nom`AS 'nom genre', COUNT(`film`.`id_film`) AS 'nombre films'
+FROM `film`, `genre`
+WHERE `film`.`id_genre` in(2, 5) `film`.`id_genre` = `genre`.`id_genre`
+GROUP BY `film`.`id_genre`;
+
+10. Faire une requete qui affiche le plus grand id_film dans une colonne "max id film" pour le genre "action"
+SELECT `film`.`id_film` AS `max id film`
+FROM `film`
+WHERE `id_genre` = 8
+ORDER BY `id_film` ASC LIMIT 1;
+
+11. On veu afficher, le titre (titre), les dates de debut et fin d'affiche, et le nombre de jours que les films as ete a l'affiche (temps_affiche), on ne veu pas afficher les films dont temps_affiche n'a pas pu etre calcule
+SELECT `titre`, `date_debut_affiche`, `date_fin_affiche`, datediff(`date_fin_affiche`, `date_debut_affiche`) AS `temps_affiche` FROM `film`
+WHERE datediff(`date_fin_affiche`, `date_debut_affiche`) is not null;
+
+12. Compter le nombre d'abonnement propose par le cinema, ainsi que la moyenne du cout des abonnements, arrondi Ã¯Â¿Â½ l'unite (superieur).Il faudra afficher le nombre d'abonnement dans une colonne "nbr abo" et la moyenne dans une colonne "c abo"
+SELECT COUNT(`nom`) AS `nbr abo`, round(avg(`prix`)) AS `c abo`
+FROM `abonnement`;
+
+13. Afficher le nom des reductions qui ont un pourcentage de reduction positif, et qui ne sont pas egale Ã¯Â¿Â½ 25. Vous les ordonnerez par id_reduction croissant
+SELECT `nom`
+FROM `reduction`
+WHERE `pourcentage_reduc` > 0 AND `pourcentage_reduc` != 25
+ORDER BY `id_reduction` ASC;
+
+14. Selectionner le nom des salles dont le nombre de sieges est compris entre 100 et 300 (inclus)
+SELECT `nom_salle`
+from `salle`
+WHERE `nbr_siege` >= 100 AND `nbr_siege` <= 300;
+
+15. Affichez pour chaque genre (NULL n'est pas un genre) l'id du genre (id_genre), et la duree du film (duree_min) le plus cours appartenant a ce genre (0 n'est pas une duree valide).
+SELET film.id_genre as "id_genre", min(duree_min) as "duree_min"
+FROM genre inner join film on film.id_genre = genre.id_genre
+WHERE duree_min > 0 group by film.id_genre;
+
+16. Faire une requete qui compte le nombre de places dans le cinema (nbr place)
+SELECT SUM(`nbr_siege`) AS `nbr place`
+FROM `salle`;
+
+17. Faire une requete qui selectionne tous les membres qui sont alles voir les films numeros 2989 ou numeros 2762 Elle devra afficher l'id du membre (id_membre) et la date (histo date) et sera ordonne par date decroissante
+SELECT `id_membre`, `date` AS `date histo`
+FROM `historique_membre`
+WHERE `id_film` in(2989, 2762)
+ORDER BY `date` DESC;
+
+18. Qu'elle est la requete la plus optimise :
+Select id_film, titre, resum
+FROM film where id_film = 1141;
+
+19. Qu'elle requette fonctionera sur l'ensemble des serveurs sql (en sachant que les champs id_genre et titre sont uniques) ?
+SELECT id_genre, titre
+FROM film
+WHERE 1
+GROUP BY id_genre, titre;
+
+20. Trouvez la mauvaise reponse a la question:Pourquoi faut-il prefixer les champs des tables par le nom de leur tables?
+Pour des raisons de compatibilite avec d'autres serveurs sql.
+

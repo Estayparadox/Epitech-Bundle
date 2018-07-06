@@ -1,0 +1,547 @@
+Details administratifs:
+
+- Aucune forme de communication n'est permise.
+
+	- Vous devez avoir votre carte d'etudiant. Vous devez la poser face visible
+	  sur votre table
+
+	- Ceci est un examen, il est interdit de discuter, ecouter de la musique,
+	  faire du bruit, ou de produire toute autres nuisances pouvant deranger les
+	  autres etudiants ou perturber le bon deroulement de l'examen
+
+	- Vos telephones portables doivent etre eteints.
+	
+	- Il faudra utiliser le sous-repertoire "rendu" a la racine du compte,
+	  il contiendra les repertoires aux noms demandes pour chaque
+	  exercice.
+
+	- Chaque exercice doit etre realise dans le repertoire correspondant au 
+	  nom indique dans l'en-tete de chaque exercice.
+
+	- Le repertoire "rendu", doit contenir un fichier nomme "auteur"
+	  comprenant :
+		le login (ex: jog) suivi d'un '\n'.
+	  ce qui doit donner:
+
+	  jog@neutron> cat -e ~/rendu/auteur
+	  jog$
+
+	- C'est un programme qui s'occupe du ramassage, respectez les noms,
+	  les chemins, les fichiers et les repertoires ...
+
+	- LES DROITS DE VOS FICHIERS N'ONT AUCUNE IMPORTANCE, VOUS N'AVEZ DONC
+	  PAS BESOIN DE LES CHANGER (SAUF SI ON VOUS LE DEMANDE DANS LE SUJET).
+	
+	- En cas de probleme technique avec le sujet, on ne doit s'adresser qu'au
+	  surveillant uniquement.
+
+	- Tout materiel non explicitement autorise est strictement interdit.
+
+	- LES EXERCICES DOIVENT ETRE REALISES DANS L'ORDRE, la correction 
+	  de l'examen s'arretera des qu'un exercice sera considere comme faux.
+
+	- Toute sortie est definitive.
+
+
+Le Code :
+
+	- Des fonctions utiles sont parfois donnees dans le repertoire
+	  ~/sujet/misc
+
+	- Le releve du code est automatise, un programme testera le bon
+	  fonctionnement des exercices.
+
+	- Les fonctions autorisees sont indiquees dans l'en-tete de chaque 
+	  exercice. Vous pouvez recoder toutes les fonctions a votre guise.
+
+	- Toute fonction non autorisee explicitement est interdite.
+
+	- Vous avez le droit a des feuilles blanches et un stylo.
+
+	- Les exercices dit "subsidiaires" sont des exercices qui donnent des
+	  points si vous avez fait les exercices qui les precedent.
+
+	- Les exercices dit "bonus" sont des exercices qui donnent des points 
+	  supplementaires meme si vous ne faites pas les exercices qui les 
+	  precedent.
+
+	- Pour toute question apres l'examen, creez un ticket sur l'intra-bocal
+	  (http://intra-bocal.epitech.net), ou envoyez un mail a
+	  contact@staff.epita.fr
+-------------------------------------------------------------------------------
+Administrative details:
+
+- No communication of any kind is allowed.
+
+	- You must have your student card. You must put it, face up, on your desk.
+
+	- This is an exam, it is forbidden to talk, listen to music, make noise, or
+	  produce any kind of nuisance that may disturb other students or prevent
+	  this exam from running smoothly.
+
+	- Your cell phones must be OFF.
+
+	- You will have to use the "rendu" subdirectory at the root of your account,
+	  which shall contain the directories named according to each exercise's
+	  instructions.
+
+	- Each exercise must be carried out in the directory mentioned in the
+	  exercise's header.
+
+	- The "rendu" subdirectory must contain a file named "auteur", containing:
+	  the login (ex: jog) followed by a '\n'.
+
+	  It should be so:
+	  jog@neutron> cat -e ~/rendu/auteur
+	  jog$
+
+	- The collection will be handled by a program, so you must respect the
+	  names, paths, of all the files and directories...
+
+	- RIGHTS OF YOUR FILES ARE OF NO CONSEQUENCE, YOU DO NOT HAVE TO CHANGE
+	  THEM (EXCEPT IF THE SUBJECT ASKS YOU TO).
+
+	- In case of a technical problem with the subject, you have to ask a
+	  supervisor (and ONLY a supervisor).
+
+	- Any equipment that is not explicitly allowed is strictly forbidden.
+
+	- EXERCISES MUST BE CARRIED OUT IN ORDER. Grading will stop as soon as
+	  an exercise is deemed false.
+
+	- Any exit is definitive.
+
+
+The code:
+
+	- Useful functions are sometimes given in the ~/sujet/misc directory.
+
+	- Collection of the code is automated, and a program will check that
+	  your exercises work correctly.
+
+	- Allowed functions are specified in each exercise's header. You can
+	  re-code any function you like.
+
+	- Any function not explicitly allowed is forbidden.
+
+	- You have a right to blank sheets of paper and a pen.
+
+	- "Subsidiary" exercises are exercises that give points if you have
+	  done the previous exercises.
+
+	- "Bonus" exercises are exercises that give bonus points even if you
+	  haven't done the previous exercises.
+
+	- For any question after the exam, create a ticket on the intra-bocal
+	  (http://intra-bocal.epitech.net), or send a mail to
+	  contact@staff.epita.fr
+
+ ----------******------------*****------------******------------*****----------
+
+
+------------------- ******** -------------------
+
+Exercice 1 : atoi_base
+___________________________
+Nom du fichier          :       my_atoi_base.c
+Nom du repertoire       :       ex_1
+Temps de realisation    :       30 minutes.
+
+
+
+         - Voici le prototype de la fonction:
+
+int             my_atoi_base(char *str, char *base);
+
+         - Il s'agit de faire une fonction C qui renvoi un nombre decimal
+           dans une base donn	e en parametre.
+
+         - vous devez gerer les nombres entre -((2^31)-1) et (2^31)-1 inclus.
+
+         - vous ne devez pas mettre dans le my_atoi_base.c les fonctions :
+           my_printnbr ni my_printchar
+
+         - Exemple de main.c:
+
+
+void             main(void)
+{
+  my_printnbr(my_atoi_base("2a", "0123456789abcdef"));
+  my_printchar('\n');
+  my_printnbr(my_atoi_base("101010", "01"));
+  my_printchar('\n');
+  my_printnbr(my_atoi_base("52", "01234567"));
+  my_printchar('\n');
+}
+
+le resultat serait donc:
+> cc main.c my_atoi_base.c
+> ./a.out
+42
+42
+42
+>
+-------------------------------------------------------------------------------
+Exercise 1 : atoi_base
+___________________________
+File name               :       my_atoi_base.c
+Directory name          :       ex_1
+Suggested time          :       30 minutes.
+
+
+
+        Here is the prototype of the function:
+
+int             my_atoi_base(char *str, char *base);
+
+        You have to make a C function that returns a decimal number from the
+        base passed as parameter.
+
+        You must handle numbers between -((2^31)-1) and (2^31)-1 included.
+
+        You must put neither my_printnbr xor my_printchar in the my_atoi_base.c
+        file.
+
+        Example of main.c:
+
+void             main(void)
+{
+  my_printnbr(my_atoi_base("2a", "0123456789abcdef"));
+  my_printchar('\n');
+  my_printnbr(my_atoi_base("101010", "01"));
+  my_printchar('\n');
+  my_printnbr(my_atoi_base("52", "01234567"));
+  my_printchar('\n');
+}
+
+The result would be:
+> cc main.c my_atoi_base.c
+> ./a.out
+42
+42
+42
+>
+
+
+------------------- ******** -------------------
+
+Exercice 2 : rostring
+_______________________
+Nom de l'executable  :          rostring
+Nom du repertoire    :          ex_2
+Temps de realisation :          20 minutes.
+Fonction autorisee   :          my_putchar.
+Makefile	     :		oui
+
+
+        Ecrire un programme qui prend en parametres une chaine de caracteres
+        et qui affiche cette chaine en procedant a une rotation de celle-ci
+        de droite a gauche.
+        Ainsi le premier mot se retrouve le dernier et l'ordre des autres
+        n'est pas modifies.
+	Les mots sont des chaines de caracteres separees par des espaces et/ou
+	des tabulations.
+        Les mots sont affiches separes par un seul et
+        unique espace.
+        L'affichage sera suivie d'un \n.
+
+
+exemple 1:
+(jog@almarita) ./rostring "abc   " | cat -e
+abc$
+(jog@almarita)
+
+exemple 2:
+(jog@almarita) ./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+(jog@almarita)
+
+exemple 3:
+(jog@almarita) ./rostring | cat -e
+$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 2 : rostring
+_______________________
+Executable name      :          rostring
+Directory name       :          ex_2
+Suggested time       :          20 minutes.
+Allowed functions    :          my_putchar.
+Makefile             :          yes
+
+
+        Write a program that takes a string and displays it after doing
+        a right to left rotation.
+        So, the first word becomes the last and the order of the words is
+        not modified.
+        Words are strings separated by spaces or tabulations.
+        Words will be displayed separated by only one space.
+        The output will be followed by a '\n'.
+
+
+Example 1:
+(jog@almarita) ./rostring "abc   " | cat -e
+abc$
+(jog@almarita)
+
+Example 2:
+(jog@almarita) ./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+(jog@almarita)
+
+Example 3:
+(jog@almarita) ./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+(jog@almarita)
+
+Example 3:
+(jog@almarita) ./rostring | cat -e
+$
+(jog@almarita)
+
+
+
+------------------- ******** -------------------
+
+Exercice 3 : sopipa
+_______________________
+Nom de l'executable	:       sopipa
+Nom du repertoire	:       ex_3
+Temps de realisation	:       40 minutes.
+Fonction autorisee	:       toute la libc standard hormis system
+Makefile		:	oui
+
+
+      Le programme sopipa prend 4 parametres:
+         ./sopipa file1 cmd1 cmd2 file2
+      file1 et file2 sont des noms de fichiers.
+      cmd1 et cmd2 sont des commandes shell avec leurs parametres.
+      L'execution du programme sopipa a le meme effet que la commande
+      shell suivante:
+            < file1 cmd1 | cmd2 > file2
+
+      Il n'est pas obligatoire de parser les arguments de sopipa.
+      /bin/sh est autorise (pour executer cmd1 et cmd2 mais pas pour
+      faire le pipe ni pour faire les redirections).
+      Il est obligatoire d'utiliser le pipe, l'usage de fichiers temporaires
+      est prohibe. Vous devez clairement creer le pipe et faire les
+      2 redirection (l'exercice ne consiste pas a trouver les executables ni
+      a decouper les parametres de cmd1 ou cmd2).
+
+
+Exemples:
+(jog@almarita) ./sopipa infile "ls -l" "wc -l" outfile
+executera la meme chose que "< infile ls -l | wc -l > outfile" en sh
+
+(jog@almarita) ./sopipa infile "grep a1" "wc -w" outfile
+executera la meme chose que "< infile grep a1 | wc -w > outfile" en sh
+-------------------------------------------------------------------------------
+Exercise 3 : sopipa
+_______________________
+Executable name     :       sopipa
+Directory name      :       ex_3
+Suggested time      :       40 minutes.
+Allowed functions   :       All the libc, except for system
+Makefile            :       yes
+
+
+        The program takes 4 parameters:
+            ./sopipa file1 cmd1 cmd2 file2
+        file1 and file2 are file names
+        cmd1 and cmd2 are shell commands with their parameters
+        The execution fo the program has the same effect as the
+        following shell command :
+            < file1 cmd1 | cmd2 > file2
+
+        You do not have to parse the arguments of sopipa.
+        /bin/sh is allowed (to execute cmd1 and cmd2, but not
+        to make the pipe or the redirections).
+        You HAVE to use pipe, temporary files are FORBIDDEN. You
+        have to clearly make the pipe and make both redirections
+        (the exercise is not about finding executables and parsing
+        arguments ...)
+
+
+Examples:
+(jog@almarita) ./sopipa infile "ls -l" "wc -l" outfile
+will do the same thing as "< infile ls -l | wc -l > outfile" in sh
+
+(jog@almarita) ./sopipa infile "grep a1" "wc -w" outfile
+will do the same thing as "< infile grep a1 | wc -w > outfile" in sh
+
+
+------------------- ******** -------------------
+
+Exercice 4 : g-diam
+__________________________
+
+Nom de l'executable  :          g-diam
+Nom du repertoire    :          ex_4
+Temps de realisation :          30 minutes
+Languages            :          C
+Fonctions autorisees :          printf, malloc, free
+Makefile             :          oui
+
+
+        Le programme prend en parametre une chaine de caracteres.
+        S'il n'y a pas de parametre, le programme affiche '\n'.
+        Cette chaine est une suite de liens entre differentes cellules.
+        Les liens sont separes par un espace.
+        Ces cellules sont representees par des chiffres et les liens
+        symbolises par '-'. Exemple:
+        Si la cellule 2 est liee a la cellule 3, les representations seront
+        les suivantes :
+        soit - : "2-3".
+        ou   - : "3-2".
+        Cette chaine represente un graphe. Le programme devra afficher
+        la longueur du plus long chemin de celui-ci.
+        A savoir: Il est impossible de revenir en arriere. c'est-a-dire de
+        utiliser une cellule plus d'une fois.
+        Voir les exemples.
+
+	Le Makefile est obligatoire meme si le programme est en PHP.
+	Il est rappele que la moulinette effacera l'executable avant de faire
+	make.
+
+
+Exemple 1:
+(jog@almarita)./g-diam "17-5 5-8 8-2 17-21 21-2 5-2 2-6 6-14 6-12 12-19 19-14 14-42" | cat -e
+10$
+(jog@almarita)
+
+Exemple 2:
+(jog@almarita)./g-diam "1-2 2-3 4-5 5-6 6-7 7-8 9-13 13-10 10-2 10-11 11-12 12-8 16-4 16-11 21-8 21-12 18-10 18-13 21-18" | cat -e
+15$
+(jog@almarita)
+-------------------------------------------------------------------------------
+Exercise 4 : g-diam
+__________________________
+
+Executable name      :          g-diam
+Directory name       :          ex_4
+Suggested time       :          30 minutes
+Languages            :          C
+Allowed functions    :          printf, malloc, free
+Makefile             :          yes
+
+
+        The program takes a string.
+        If there is no parameter, the program displays '\n'.
+        This string is a series of links between cells.
+        Links are separated by spaces.
+        These cells are represented by numbers and the links by '-'.
+        Example:
+        If the cell 2 is linked to the cell 3, representations will be :
+        Either "2-3" or "3-2"
+        This string represents a graph. The program must display the length
+        of its longest path.
+        It is not possible to go back, that is to say no cell can be used
+        more than once. (See examples).
+
+        The Makefile is mandatory even if the program is in PHP.
+        The grading robot will delete the executable before running make.
+
+
+Example 1:
+(jog@almarita)./g-diam "17-5 5-8 8-2 17-21 21-2 5-2 2-6 6-14 6-12 12-19 19-14 14-42" | cat -e
+10$
+(jog@almarita)
+
+Example 2:
+(jog@almarita)./g-diam "1-2 2-3 4-5 5-6 6-7 7-8 9-13 13-10 10-2 10-11 11-12 12-8 16-4 16-11 21-8 21-12 18-10 18-13 21-18" | cat -e
+15$
+(jog@almarita)
+
+
+------------------- ******** -------------------
+
+Exercice 5 : infin_mult
+_______________________
+Nom de l'executable  :          infin_mult
+Nom du repertoire    :          ex_5
+Temps de realisation :          40 minutes.
+Fonction autorisee   :          malloc, free, my_putstr, my_putchar, write
+Makefile	     :		oui
+
+
+         Il s'agit de realiser un programme qui effectue une multiplication
+         infini. Ce programme prend en parametre deux chaines de carateres
+         et ecrit une chaine de caractere qui est le resultat de l'operation
+	 en sortie standart.
+
+	 Il y a deux chaines passees en parametre.
+         Ces trois chaines sont des nombres, la chaine affichee est le resultat
+         du produit entre les deux chaines passees arguments.
+         Le resultat sera suivie d'un '\n'.
+         Les nombres negatifs doivent etre precedes du signe "-".
+         Le resultat doit etre affiche sans espace. Aucun zero ne doit
+         preceder le nombre affiche.
+
+         Un nombre negatif doit etre precede d'un et d'un seul signe.
+
+         Tous les parametres seront bien formates.
+
+
+
+exemple 1:
+> ./infin_mult "879879087" "67548976597" | cat -e
+59434931855952726939$
+>
+
+
+
+exemple 2:
+> ./infin_mult "-876435" "987143265" | cat -e
+-865166907460275$
+>
+
+exemple 3
+> ./infin_mult "-807965" "-34532" | cat -e
+27900647380$
+>
+-------------------------------------------------------------------------------
+Exercise 5 : infin_mult
+_______________________
+Executable name      :          infin_mult
+Directory name       :          ex_5
+Suggested time       :          40 minutes.
+Allowed functions    :          malloc, free, my_putstr, my_putchar, write
+Makefile             :          yes
+
+
+        You have to write a program that does an infinite product.
+        This program takes two strings and writes a string representing
+        the result of the product on the standard output.
+
+        There are two strings as parameters.
+        Both are numbers. The displayed string is the result of the product
+        of both these strings.
+        The result will be followed by '\n'.
+        Negative numbers have to be preceded by a '-'.
+        The result must be displayed without spaces. No zeroes can precede
+        the result.
+
+        A negative number will be preceded by one and only one '-' sign.
+
+        All parameters are valid.
+
+
+Example 1:
+> ./infin_mult "879879087" "67548976597" | cat -e
+59434931855952726939$
+>
+
+Example 2:
+> ./infin_mult "-876435" "987143265" | cat -e
+-865166907460275$
+>
+
+Example 3
+> ./infin_mult "-807965" "-34532" | cat -e
+27900647380$
+>
