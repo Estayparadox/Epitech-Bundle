@@ -12,13 +12,13 @@
 ## TEK 1
 ### C Pool
 - [Piscine-C](https://github.com/Estayparadox/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
-### Basic programming (CPE)
+### Basic Programming (CPE)
 - [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) -
 - [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) -
 - [CPE_2014_bsq](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_bsq) -
 - [CPE_2014_get_next_line](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_get_next_line) -
 - [marvin](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/marvin) -
-### Unix system programming (PSU)
+### Unix System Programming (PSU)
 - [PSU_2014_minishell1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell1) -
 - [PSU_2014_minishell2](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell2) -
 - [PSU_2014_minitalk](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minitalk) -
@@ -26,7 +26,7 @@
 - [PSU_2014_my_printf](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_printf) -
 - [PSU_2014_my_select](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_select) -
 - [BocalEmblem](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/BocalEmblem) -
-### Graphic programming (MUL)
+### Graphic Programming (MUL)
 - [MUL_2014_rtv1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_rtv1) -
 - [MUL_2014_wolf3d](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_wolf3d) -
 - [minilibx](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/minilibx) -
@@ -40,7 +40,7 @@
 ### Colle
 - [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) - ☑️ -
 - [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) - ✅ -
-### Synthesis pool
+### Synthesis Pool
 - [automakefile](https://github.com/Estayparadox/Automakefile) - 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
 - [SBMLParser](https://github.com/Estayparadox/SBML-Parser) - 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
 - [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
@@ -53,7 +53,7 @@
 - [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 - [Trade](https://github.com/Estayparadox/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### C++ Module
-### Unix system programming (PSU)
+### Unix System Programming (PSU)
 - [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) -
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) -
 - [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) -
@@ -61,7 +61,7 @@
 - [PSU_2015_myftp](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myftp) -
 - [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) -
 - [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) -
-### Assembler language
+### Assembler Module (ASM)
 - [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ -
 ### Rush Network
 - [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ -
@@ -89,7 +89,7 @@
 - [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) - ⚠️
 - [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) - ⚠️
 - [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) - ⚠️
-### French Module
+### French Module (B)
 - [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) - 🍎 -
 - [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) - 🍎 -
 - [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) - 🍎 -
