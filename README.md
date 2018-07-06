@@ -8,24 +8,24 @@
 * ⚠️ The project encountering some issues and it isn't documented
 * 🍎 The project does not concern computer development
 ## Tools
-- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
+- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) - 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
 ## TEK 1
 ### C Pool
-- [Piscine-C](https://github.com/Estayparadox/Piscine-C) ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
+- [Piscine-C](https://github.com/Estayparadox/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
 ### Basic programming (CPE)
 ### Unix system programming (PSU)
 ### Graphic programming (MUL)
 ### French Module (B)
 ### SQL
-- [SQL](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/SQL) ✅
+- [SQL](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/SQL) - ✅ -
 ### Exams C
-- [Exam](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Exam) ✅
+- [Exam](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Exam) - ✅ -
 ### Colle
-- [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) ☑️
-- [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) ✅
+- [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) - ☑️ -
+- [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) - ✅ -
 ### Synthesis pool
-- [automakefile](https://github.com/Estayparadox/Automakefile) 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
-- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
+- [automakefile](https://github.com/Estayparadox/Automakefile) - 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
+- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) - 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
 - [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
 - [Palindrome](https://github.com/Estayparadox/Palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
 - [genealogie](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/genealogie) ✅
@@ -49,17 +49,18 @@
 - [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy)
 ### C++ Module
 ### Rush Network
+- [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) ✅
 ## TEK 3
 ### Java Module
-- [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
+- [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) - 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
 - [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) ☑️
 ### DotNet Module
-- [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
+- [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) - 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
-- [301dannon](https://github.com/Estayparadox/301dannon) 📚✅ - A benchmark of different sorting algorithms that compare their execution speed developed in Python language.
-- [302separation](https://github.com/Estayparadox/302separation) 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
-- [303make](https://github.com/Estayparadox/303make) 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
-- [304pacman](https://github.com/Estayparadox/304pacman) 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
+- [301dannon](https://github.com/Estayparadox/301dannon) - 📚✅ - A benchmark of different sorting algorithms that compare their execution speed developed in Python language.
+- [302separation](https://github.com/Estayparadox/302separation) - 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
+- [303make](https://github.com/Estayparadox/303make) - 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
+- [304pacman](https://github.com/Estayparadox/304pacman) - 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
 - [305construction](https://github.com/Estayparadox/305construction) 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
 - [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) ⚠️
 - [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) ⚠️
