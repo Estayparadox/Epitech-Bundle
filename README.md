@@ -31,8 +31,8 @@
 - [MUL_2014_wolf3d](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_wolf3d) -
 - [minilibx](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/minilibx) -
 ### French Module (B)
-- [B1Lettre](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Lettre) -
-- [B1Mailpro](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Mailpro) -
+- [B1Lettre](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Lettre) - 🍎 -
+- [B1Mailpro](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Mailpro) - 🍎 -
 ### SQL
 - [SQL](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/SQL) - ✅ -
 ### Exams C
@@ -45,28 +45,35 @@
 - [SBMLParser](https://github.com/Estayparadox/SBML-Parser) - 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
 - [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
 - [Palindrome](https://github.com/Estayparadox/Palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
-- [genealogie](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/genealogie) ✅
-- [projTester](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/projTester) ✅
+- [genealogie](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/genealogie) - ✅ -
+- [projTester](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/projTester) - ✅ -
+
 ## TEK 2
 ### C++ Pool
 - [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 - [Trade](https://github.com/Estayparadox/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
-### Assembler language
-- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️
-### French Module (B)
-- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) - 🍎
-- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) - 🍎 
-- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) - 🍎
-- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) - 🍎
-- [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) - 🍎
-- [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) - 🍎
+### C++ Module
 ### Unix system programming (PSU)
 - [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) -
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) -
 - [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) -
-### C++ Module
+- [PSU_2015_malloc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_malloc) -
+- [PSU_2015_myftp](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myftp) -
+- [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) -
+- [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) -
+### Assembler language
+- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ -
 ### Rush Network
-- [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅
+- [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ -
+### Swift Pool
+### French Module (B)
+- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) - 🍎 -
+- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) - 🍎 -
+- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) - 🍎 -
+- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) - 🍎 -
+- [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) - 🍎 -
+- [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) - 🍎 -
+
 ## TEK 3
 ### Java Module
 - [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) - 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
@@ -83,7 +90,7 @@
 - [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) - ⚠️
 - [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) - ⚠️
 ### French Module
-- [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) - 🍎
-- [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) - 🍎
-- [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) - 🍎
-- [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 
+- [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) - 🍎 -
+- [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) - 🍎 -
+- [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) - 🍎 -
+- [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 -
