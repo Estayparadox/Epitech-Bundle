@@ -17,11 +17,19 @@
 ### Graphic programming (MUL)
 ### French Module (B)
 ### SQL
+- [SQL](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/SQL) ✅
+### Exams C
+- [Exam](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Exam) ✅
+### Colle
+- [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) ☑️
+- [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) ✅
 ### Synthesis pool
 - [automakefile](https://github.com/Estayparadox/Automakefile) 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
 - [SBMLParser](https://github.com/Estayparadox/SBML-Parser) 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
 - [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
 - [Palindrome](https://github.com/Estayparadox/Palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
+- [genealogie](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/genealogie) ✅
+- [projTester](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/projTester) ✅
 ## TEK 2
 ### C++ Pool
 - [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
@@ -40,6 +48,7 @@
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo)
 - [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy)
 ### C++ Module
+### Rush Network
 ## TEK 3
 ### Java Module
 - [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
