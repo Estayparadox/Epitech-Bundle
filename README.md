@@ -4,7 +4,8 @@
 
 * 📚 The project is documented
 * ✅ The project is 100% functional
-* ⚠️ The project seems to work but it is not documented and it doesn't have all functionalities
+* ☑️ The project is working but doesn't have all fonctionnalities or it isn't documented 
+* ⚠️ The project encountering some issues and it isn't documented
 * 🍎 The project does not concern computer development
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
@@ -35,14 +36,14 @@
 - [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) 🍎
 - [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) 🍎
 ### Unix system programming (PSU)
-- [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) ⚠️
-- [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) ⚠️
-- [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) ⚠️
+- [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc)
+- [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo)
+- [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy)
 ### C++ Module
 ## TEK 3
 ### Java Module
 - [Java_ToDoList_2017](https://github.com/Estayparadox/ToDo-List) 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
-- [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) ⚠️
+- [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) ☑️
 ### DotNet Module
 - [Card-Games-DotNet](https://github.com/Estayparadox/Card-Games-DotNet) 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
