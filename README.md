@@ -59,6 +59,7 @@
 ### Rush Network
 - [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ -
 ### Swift Pool
+- [Piscine-Swift](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-Swift) - ✅ -
 ### French Module (B)
 - [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) - 🍎 -
 - [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) - 🍎 -
