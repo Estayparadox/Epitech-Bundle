@@ -43,9 +43,9 @@
 
 ## TEK 2
 ### C++ Pool
-- [Piscine-CPP](https://github.com/Estayparadox/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
-- [Trade](https://github.com/Estayparadox/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
+- [Piscine-CPP](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-CPP) ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 ### C++ Module
+- [Trade](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/Trade) 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### Unix System Programming (PSU)
 - [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) -
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) -
