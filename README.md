@@ -34,10 +34,10 @@
 - [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) - ☑️ -
 - [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) - ✅ -
 ### Synthesis Pool
-- [automakefile](https://github.com/Estayparadox/Automakefile) - 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
-- [SBMLParser](https://github.com/Estayparadox/SBML-Parser) - 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
-- [FASTATool](https://github.com/Estayparadox/FASTA-Tool) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
-- [Palindrome](https://github.com/Estayparadox/Palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
+- [automakefile](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/automakefile) - 📚✅ - A shell program that auto-generate a makefile for Epitech projects.
+- [SBMLParser](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/SBMLparser) - 📚✅ - A program developed in C language that can organize huge amount of data from a SBML file.
+- [FASTATool](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/FASTAtools) 📚✅ - A program developed in C that give the right DNA sequence you want from FASTA data files.
+- [palindrome](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/palindrome) 📚✅ - A C program that symply find if a number is a palindrome or not.
 - [genealogie](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/genealogie) - ✅ -
 - [projTester](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Synthesis/projTester) - ✅ -
 
