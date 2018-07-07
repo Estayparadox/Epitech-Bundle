@@ -7,11 +7,9 @@
 * ☑️ The project is working but doesn't have all fonctionnalities or it isn't documented 
 * ⚠️ The project encountering some issues and it isn't documented
 * 🍎 The project does not concern computer development
-## Tools
-- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) - 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
 ## TEK 1
 ### C Pool
-- [Piscine-C](https://github.com/Estayparadox/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
+- [Piscine-C](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
 ### Basic Programming (CPE)
 - [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) -
 - [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) -
@@ -29,14 +27,9 @@
 ### Graphic Programming (MUL)
 - [MUL_2014_rtv1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_rtv1) -
 - [MUL_2014_wolf3d](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_wolf3d) -
-- [minilibx](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/minilibx) -
 ### French Module (B)
 - [B1Lettre](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Lettre) - 🍎 -
 - [B1Mailpro](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/B/B1Mailpro) - 🍎 -
-### SQL
-- [SQL](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/SQL) - ✅ -
-### Exams C
-- [Exam](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Exam) - ✅ -
 ### Colle
 - [mastermind](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/mastermind) - ☑️ -
 - [my_boogle](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Colle/my_boogle) - ✅ -
@@ -94,3 +87,8 @@
 - [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) - 🍎 -
 - [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) - 🍎 -
 - [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 -
+## Tools
+- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Norme-Checker) - 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
+- [blih-web](https://github.com/maximelouet/blih-web) - 📚✅ - An awesome JavaScript tool using Blih.py that allow Epitech students an oversee of their repositories and their projects
+- [Exam-C-tek-2](https://github.com/Epicheat/Exam-C-tek-2)
+- [Exam-SQL](https://github.com/Epicheat/Exam-SQL)
