@@ -1,0 +1,174 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys
+
+tab = []
+val = []
+fusionCounter = 0
+quickCounter = 0
+
+def selectionSort(selectionList):
+   count = 0
+   for fillslot in range(len(selectionList)-1,0,-1):
+       positionOfMax = 0
+       for location in range(1,fillslot+1):
+           if selectionList[location] > selectionList[positionOfMax]:
+               positionOfMax = location
+           count = count + 1
+       temp = selectionList[fillslot]
+       selectionList[fillslot] = selectionList[positionOfMax]
+       selectionList[positionOfMax] = temp
+   if count > 1:
+      print "select sort: %d comparisons" % count
+   else:
+      print "select sort: %d comparison" % count
+      
+def insertionSort(insertionList):
+   count = 0
+   for index in range(1,len(insertionList)):
+      count = count + 1
+      currentvalue = insertionList[index]
+      position = index
+      while position > 0 and insertionList[position-1] > currentvalue:
+         count = count + 1
+         insertionList[position] = insertionList[position-1]
+         position = position - 1
+      insertionList[position] = currentvalue
+   if count > 1:
+      print "insertion sort: %d comparisons" % count
+   else:
+      print "insertion sort: %d comparison" % count
+      
+def bubbleSort(bubbleList):
+   count = 0
+   for passnum in range(len(bubbleList)-1,0,-1):
+      for i in range(passnum):
+         count = count + 1
+         if bubbleList[i] > bubbleList[i+1]:
+            temp = bubbleList[i]
+            bubbleList[i] = bubbleList[i+1]
+            bubbleList[i+1] = temp
+   if count > 1:
+      print "bubble sort: %d comparisons" % count
+   else:
+      print "bubble sort: %d comparison" % count
+      
+def fusionSort(fusionList):
+   global fusionCounter
+   if len(fusionList) > 1:
+      mid = len(fusionList)//2
+      fPart = fusionList[:mid]
+      sPart = fusionList[mid:]
+      fusionSort(fPart)
+      fusionSort(sPart)
+      a = 0
+      b = 0
+      c = 0
+      while a < len(fPart) and b < len(sPart):
+         fusionCounter = fusionCounter + 1
+         if fPart[a] < sPart[b]:
+            fusionList[c] = fPart[a]
+            a = a + 1
+         else:
+            fusionList[c] = sPart[b]
+            b = b + 1
+            c = c + 1
+      while a < len(fPart):
+         fusionList[c] = fPart[a]
+         a = a + 1
+         c = c + 1
+      while b < len(sPart):
+         fusionList[c] = sPart[b]
+         b = b + 1
+         c = c + 1
+   return (fusionCounter)
+
+def quickSort(quickTab):
+   global quickCounter
+   before = []
+   after = []
+   tmp = []
+   if len(quickTab) <= 1:
+      return quickTab
+   else:
+      point = quickTab[0]
+      for elem in quickTab:
+         if elem < point:
+            quickCounter = quickCounter + 1
+            before.append(elem)
+         elif elem > point:
+            quickCounter = quickCounter + 1
+            after.append(elem)
+         else:
+            tmp.append(elem)
+      before = quickSort(before)
+      after = quickSort(after)
+      total = before + tmp + after
+      return (total)
+
+### PRINTS ###
+
+def errorPrinter():
+   sys.stderr.write("USAGE\n\t./301dannon file\n\nDESCRIPTION\n\tfile\tfile that contains the numbers to be sorted, separated by spaces\n")
+   exit(84)
+
+def usagePrinter():
+   print "USAGE\n\t./301dannon file\n\nDESCRIPTION\n\tfile\tfile that contains the numbers to be sorted, separated by spaces"
+   exit(0)
+   
+### PARSER ###
+   
+def addContent(val, tab):
+   global fusionCounter
+   global quickCounter
+   selectionTab = list(val)
+   insertionTab = list(val)
+   bubbleTab = list(val)
+   quickTab = list(val)
+   fusionTab = list(val)
+   if len(tab) > 1:
+      print "%d elements" % (len(tab))
+   else:
+      print "%d element" % (len(tab))
+   selectionSort(selectionTab)
+   insertionSort(insertionTab)
+   bubbleSort(bubbleTab)
+   fusionSort(fusionTab)
+   if fusionCounter > 1:
+      print "fusion sort: %d comparisons" % fusionCounter
+   else:
+      print "fusion sort: %d comparison" % fusionCounter
+   quickSort(quickTab)
+   if quickCounter > 1:
+      print "quicksort: %d comparisons" % quickCounter
+   else:
+      print "quicksort: %d comparison" % quickCounter
+   exit(0)
+      
+def checkfile():
+   global tab
+   global val
+   if len(sys.argv) == 2:
+      if sys.argv[1] == "-h":
+         usagePrinter()
+      else:
+         if not os.path.isfile(sys.argv[1]):
+            errorPrinter()
+         content = open(sys.argv[1], "r")
+         for line in content:
+            tab.extend(line.replace('-',' ').replace(',','.').split())
+         try:
+            for elem in tab:
+               val.append(float(elem))
+         except:
+            errorPrinter()
+         addContent(val, tab)
+   else:
+      errorPrinter()
+      exit(84)
+   exit(0)
+      
+checkfile()
+
+exit(0)

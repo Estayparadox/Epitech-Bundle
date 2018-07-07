@@ -1,0 +1,248 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys, operator
+
+nameTab = []
+classTab = []
+unique = None
+optPath = False
+
+class People:
+    def __init__(self, name):
+        self.name = name;
+        self.listName = []
+
+    def getName(self):
+        return (self.name)
+        
+    def addRelation(self, name):
+        if not (name in self.listName):
+            self.listName.append(name)
+
+    def getRelation(self):
+        for tmp in self.listName:
+            print ("  Relation: %s" % tmp)
+            return 0
+
+    def getRelationName(self):
+        return(self.listName)
+
+### Parsing Function ###
+            
+def checkArray(name):
+    global nameTab
+    if (name in nameTab):
+        return (False)
+    else:
+        nameTab.append(name)
+        return (True)
+
+def newClass(name):
+    global classTab
+    tmp_class = People(name)
+    classTab.append(tmp_class)
+    
+def addRelationship(people, friends):
+    global classTab
+    for elem in classTab:
+        if (elem.getName() == people):
+            elem.addRelation(friends)
+
+def printClass():
+    global classTab
+    for elem in classTab:
+        print("People: %s" % elem.getName())
+        elem.getRelation()
+
+def checkPeople(name1, name2, tmp):
+    global nameTab
+    if ((name1 in  nameTab) and (name2 in nameTab)):
+        if (name1 == name2):
+            print("degree of separation between %s and %s: 0" % (name1, name2))
+        else:
+            makeDico(tmp, name1, name2)
+    else:
+        print("degree of separation between %s and %s: -1" % (name1, name2))
+        exit(0)
+
+### HELP ###
+        
+def printUsage():
+    sys.stdout.write('\n')
+    print("USAGE:\n\t./302separation [file p1 p2 [-p]] [nb] [-m]\n")
+    print("DESCRIPTION:\n\tfile\tThe file you want to check.\n\tp1 p2\tPeople you want to know their connection.")
+    print("\tnb\tThe maximum size of the paths.")
+    print("\t-m\tDisplays the incidence matrix.")
+    print("\t-p\tDisplays the optimized path taken")
+    sys.stdout.write('\n')
+    
+### SORT NAME ###
+
+def sortName(tmp):
+    global nameTab
+    count = 1
+    nameTab.sort()
+    for elem in nameTab:
+        print ("%s" % elem)
+    print("")
+    
+### FIND DEGREE ###
+
+def makeDico(tmp, start, end):
+    global unique
+    count = 1
+    graph = {}
+    for i in range(len(tmp)):
+        if (count == 1):
+            if tmp[i] in graph:
+                graph[tmp[i]].append(tmp[i+1])
+            else:
+                graph[tmp[i]] = [tmp[i+1]]
+        if (count == 2):
+            if tmp[i] in graph:
+                graph[tmp[i]].append(tmp[i-1])
+            else:
+                graph[tmp[i]] = [tmp[i-1]]
+            count = 0
+        count = count + 1
+    unique = start
+    findPath(graph, start, end)
+    
+def findPath(graph, start, end, path=[]):
+    global i
+    global unique
+    path = path + [start]
+    if (start == end):
+        return path
+    if not graph.has_key(start):
+        return None
+    for node in graph[start]:
+        if (node not in path):
+            newpath = findPath(graph, node, end, path)
+            if (newpath):
+                if (optPath == True):
+                    print("degree of separation between %s and %s: %d" % (unique, end, (len(newpath)-1)))
+                    print newpath
+                else:
+                    print("degree of separation between %s and %s: %d" % (unique, end, (len(newpath)-1)))
+                exit(0)
+    return None
+    
+### INCIDENCE MATRIX ###
+        
+def matrixOption(tmp):
+    global nameTab
+    count = 1
+    nameTab.sort()
+    l_map = []
+    ct = 1
+    line = 0
+    for i in range(0, len(tmp)):
+        if (ct == 1):
+            line = line + 1
+        if (ct == 2):
+            ct = 0
+        ct = ct + 1
+    for i in range(len(nameTab)):
+        l_map.append([0] * line)
+    a = 0
+    b = 0
+    for elem in nameTab:
+        for i in range(0, len(tmp)):
+            if (count == 1):
+                if ((tmp[i] == elem) or (tmp[i+1] == elem)):
+                    l_map[b][a] = 1
+                a = a + 1
+            if (count == 2):
+                count = 0
+            count = count + 1
+        a = 0
+        b = b + 1
+
+    for i in range(len(nameTab)):
+        print l_map[i]
+
+### SIMPLE MATRIX  ###              
+
+def adjacencyMatrix():
+    global nameTab
+    global classTab
+    nameTab.sort();
+    classTab.sort(key=operator.attrgetter("name"))
+    for c in classTab:
+        relation = c.getRelationName()
+        counter = 0
+        for n in nameTab:
+            counter += 1
+            boule = False
+            for r in relation:
+                if (n == r):
+                    boule = True
+            if boule:
+                sys.stdout.write('1')
+            else:
+                sys.stdout.write('0')
+            if (counter < len(nameTab)):
+                sys.stdout.write(' ')
+        sys.stdout.write('\n')
+        
+### PRINCIPAL FUNCTIONS ###
+        
+def checkfile():
+    global optPath
+    if len(sys.argv) >= 3:
+        if not os.path.isfile(sys.argv[1]):
+            printUsage()
+            exit(84)
+        file = open(sys.argv[1], "r")
+        content = file.read()
+        file.close()
+        rep = content.replace('\n', ' is friend with ')
+        tmp = rep.split(" is friend with ")
+        if (len(sys.argv) == 3):
+            if (sys.argv[2] == "-m"):
+                makePeople(tmp)
+                matrixOption(tmp)
+            else:
+                makePeople(tmp)
+                sortName(tmp)
+                adjacencyMatrix()
+        elif (len(sys.argv) == 4):
+            makePeople(tmp)
+            checkPeople(sys.argv[2], sys.argv[3], tmp)
+        elif (len(sys.argv) == 5):
+            if (sys.argv[4] == "-p"):
+                makePeople(tmp)
+                optPath = True
+                checkPeople(sys.argv[2], sys.argv[3], tmp)
+            else:
+                printUsage()
+                exit(84)
+        else:
+            printUsage()
+            exit(84)
+    else:
+        printUsage()
+        exit(84)
+
+def makePeople(tmp):
+    counter = 0
+    i = 1
+    for elem in tmp:
+        if (i == 3):
+            i = 1
+        if (checkArray(elem)):
+            newClass(elem)
+        if (i == 1):
+            addRelationship(tmp[counter], tmp[counter + 1])
+        else:
+            addRelationship(tmp[counter], tmp[counter - 1])
+        i += 1
+        counter += 1
+
+### Parsing Function ###
+
+checkfile()
+
+exit(0)

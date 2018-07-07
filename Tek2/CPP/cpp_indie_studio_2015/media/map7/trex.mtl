@@ -1,0 +1,10 @@
+# File produced by AccuTrans 3D
+
+newmtl Eyelids_me
+  Ns 13.7
+  d 1.0
+  illum 2
+  Kd 0.5843 0.5843 0.5843
+  Ka 0.5843 0.5843 0.5843
+  Ks 0.898 0.898 0.898
+  map_Kd TREX.png

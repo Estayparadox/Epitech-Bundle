@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="HD2-1N-OAm">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1578.75" y="296.83098591549293"/>
+        </scene>
+        <!--Swift View Controller-->
+        <scene sceneID="JwD-iz-bAP">
+            <objects>
+                <viewController id="ElT-OU-e0q" customClass="SwiftViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d6h-Sg-9as"/>
+                        <viewControllerLayoutGuide type="bottom" id="2CE-pe-4kx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PPl-R7-qmk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dex-mc-X9p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="156" y="1076"/>
+        </scene>
+        <!--Java View Controller-->
+        <scene sceneID="TYH-Jm-Hyn">
+            <objects>
+                <viewController id="cLO-a1-Hye" customClass="JavaViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SxF-OE-L4H"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ugl-X8-R5t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cQh-3i-4Cv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M6p-GH-7ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850" y="1072"/>
+        </scene>
+        <!--Go View Controller-->
+        <scene sceneID="eze-aU-x7o">
+            <objects>
+                <viewController id="jrh-Dp-610" customClass="GoViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kmf-CA-5cW"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ke-Wy-jhn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bJ0-0q-KCl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0gj-Mo-OT0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584" y="1076"/>
+        </scene>
+        <!--Non Menu Controller-->
+        <scene sceneID="cOo-cr-M3q">
+            <objects>
+                <viewController id="LlQ-gb-7HO" customClass="NonMenuController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vhi-z1-sA1"/>
+                        <viewControllerLayoutGuide type="bottom" id="sMx-iz-xFc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wzv-KS-OHx">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rOs-82-tah" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2318" y="1076"/>
+        </scene>
+        <!--Right View Controller-->
+        <scene sceneID="ebl-jx-CSH">
+            <objects>
+                <viewController id="eBs-dy-5Vc" customClass="RightViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7A3-3F-DJm"/>
+                        <viewControllerLayoutGuide type="bottom" id="HAX-cw-dgi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e96-WU-k37">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3RC-hz-z5H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2268" y="-464"/>
+        </scene>
+        <!--Left View Controller-->
+        <scene sceneID="Xfs-15-M9g">
+            <objects>
+                <viewController id="5DG-eu-0tZ" customClass="LeftViewController" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gos-5B-UKT"/>
+                        <viewControllerLayoutGuide type="bottom" id="ar6-fv-IVd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JWh-Sz-t23">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gbI-r9-wZt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1578" y="-464"/>
+        </scene>
+        <!--Page Login-->
+        <scene sceneID="pjB-3o-8fh">
+            <objects>
+                <viewController id="HD2-1N-OAm" customClass="pageLogin" customModule="EpiSpy_2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hj7-Oj-oEQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="oum-ha-iNA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XsC-PO-601">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="XmT-l2-XGX">
+                                <rect key="frame" x="252" y="321" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <action selector="champPassword:" destination="HD2-1N-OAm" eventType="touchDragInside" id="Zdh-qv-jRp"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4j-vA-qsb">
+                                <rect key="frame" x="269" y="394" width="63" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Sign in"/>
+                                <connections>
+                                    <action selector="loginApp:" destination="HD2-1N-OAm" eventType="touchUpInside" id="mnS-wm-B2Z"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LOGIN_X" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="WEv-LK-z8f">
+                                <rect key="frame" x="252" y="268" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="logoEpiSpy" translatesAutoresizingMaskIntoConstraints="NO" id="2la-2B-ydw">
+                                <rect key="frame" x="180" y="73" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0078431372549019607" green="0.27058823529411763" blue="0.396078431372549" alpha="0.63" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z4j-vA-qsb" firstAttribute="centerX" secondItem="XsC-PO-601" secondAttribute="centerX" id="Cd8-oQ-I0q"/>
+                            <constraint firstItem="XmT-l2-XGX" firstAttribute="height" secondItem="WEv-LK-z8f" secondAttribute="height" id="FYv-Ce-bQI"/>
+                            <constraint firstItem="XmT-l2-XGX" firstAttribute="width" secondItem="WEv-LK-z8f" secondAttribute="width" id="FyZ-yC-JpG"/>
+                            <constraint firstItem="WEv-LK-z8f" firstAttribute="top" secondItem="Hj7-Oj-oEQ" secondAttribute="bottom" constant="248" id="GzQ-Kz-Vcq"/>
+                            <constraint firstItem="WEv-LK-z8f" firstAttribute="top" secondItem="2la-2B-ydw" secondAttribute="bottom" constant="67" id="J8S-bA-E7Z"/>
+                            <constraint firstItem="XmT-l2-XGX" firstAttribute="centerX" secondItem="XsC-PO-601" secondAttribute="centerX" id="MJ7-6e-SMv"/>
+                            <constraint firstItem="2la-2B-ydw" firstAttribute="centerX" secondItem="XsC-PO-601" secondAttribute="centerX" id="Rcj-Gc-ufA"/>
+                            <constraint firstItem="WEv-LK-z8f" firstAttribute="centerX" secondItem="XsC-PO-601" secondAttribute="centerX" id="dg6-ph-CMF"/>
+                            <constraint firstItem="XmT-l2-XGX" firstAttribute="top" secondItem="WEv-LK-z8f" secondAttribute="bottom" constant="23" id="iA6-bY-qgG"/>
+                            <constraint firstItem="2la-2B-ydw" firstAttribute="top" secondItem="Hj7-Oj-oEQ" secondAttribute="bottom" constant="53" id="jCT-vO-F6p"/>
+                            <constraint firstItem="Z4j-vA-qsb" firstAttribute="top" secondItem="XmT-l2-XGX" secondAttribute="bottom" constant="43" id="sqU-ui-J0h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtPassword" destination="XmT-l2-XGX" id="XXo-7y-MaM"/>
+                        <outlet property="txtUser" destination="WEv-LK-z8f" id="xMc-7W-xro"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="segueLogin" id="Etb-Q6-CGB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N2W-Wm-1NL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="839" y="296"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoEpiSpy" width="700" height="700"/>
+    </resources>
+</document>

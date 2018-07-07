@@ -1,0 +1,97 @@
+Advanced tests
+
+  rigueur:
+    Passed: 100.0 %
+    Crashed: 0.0 %
+
+
+diagramme de Gantt - 10 tests
+  10 tâches diagramme: KO
+    Test failure: Line 3 differs
+< Ech	(3)	       ====
+> Ech	(0)	       ====
+  11 tâches diagramme: KO
+    Test failure: Line 1 differs
+< Bes	(2)	==
+> Bes	(0)	==
+  9 tâches diagramme: OK
+    PASSED
+  deux tâches diagramme: OK
+    PASSED
+  suite de 7 tâches diagramme: KO
+    Invalid exit status 84
+  suite de 8 tâches diagramme: OK
+    PASSED
+  trois tâches diagramme: OK
+    PASSED
+  tâches indépend. diagramme: OK
+    PASSED
+  tâches nulles diagramme: OK
+    PASSED
+  une tâche diagramme: OK
+    PASSED
+
+durée du projet - 10 tests
+  10 tâches durée: OK
+    PASSED
+  11 tâches durée: OK
+    PASSED
+  70 tâches: KO
+    Test failure: Line 5 differs
+< t003 must begin between t=9 and t=12
+> t003 must begin at t=9
+  9 tâches durée: OK
+    PASSED
+  deux tâches durée: OK
+    PASSED
+  suite de 7 tâches durée: KO
+    Invalid exit status 84
+  suite de 8 tâches durée: OK
+    PASSED
+  trois tâches durée: OK
+    PASSED
+  tâches indépend. durée: OK
+    PASSED
+  une tâche durée: OK
+    PASSED
+
+dâtes (MPM) - 10 tests
+  10 tâches dates: KO
+    Test failure: Line 3 differs
+< Ech must begin between t=7 and t=10
+> Ech must begin at t=7
+  11 tâches dates: KO
+    Test failure: Line 1 differs
+< Bes must begin between t=0 and t=2
+> Bes must begin at t=0
+  9 tâches dates: OK
+    PASSED
+  deux tâches dates: OK
+    PASSED
+  suite de 7 tâches dates: KO
+    Invalid exit status 84
+  suite de 8 tâches dates: OK
+    PASSED
+  trois tâches dates: OK
+    PASSED
+  tâches indépend. dates: OK
+    PASSED
+  tâches nulles dates: OK
+    PASSED
+  une tâche dates: OK
+    PASSED
+
+robustesse - 6 tests
+  boucle: OK
+    PASSED
+  circuit: OK
+    PASSED
+  durée négative: OK
+    PASSED
+  tâche duppliquée: OK
+    PASSED
+  tâche inexistante: OK
+    PASSED
+  tâches nulles: OK
+    PASSED
+

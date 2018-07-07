@@ -1,0 +1,123 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os
+import sys
+import operator
+import exceptions
+
+tab = []
+
+### PRINTS ###
+
+def printMaperror():
+    print "Synthax error:"
+    print "It must be one P and one F in file."
+    print "Tolerate characters: 1, 0, P, F."
+    print "It must be a path between P & F to get a map."
+    print "Please run './304pacman -h' to find help."
+    exit(84)
+
+def printParameters():
+    print "Synthax error:"
+    print "c1 and c2 are parts of the map, they mustn't be the same."
+    print "You have to set at least one of them to '1'."
+    print "Please run './304pacman -h' to find help."
+    exit(84)
+
+def printUsage():
+    print ("USAGE:\n\t./304pacman [file c1 c2] [-h]")
+    print ("DESCRIPTION:\n\tfile\tRepresent the game board.")
+    print ("\tc1\tThe character to display for a wall.")
+    print ("\tc2\tThe character to displayfor an empty space.")
+    print ("\t-h\tHelp command.")
+    exit(0)
+
+def printError():
+    print ("USAGE:\n\t./304pacman [file c1 c2] [-h]")
+    print ("DESCRIPTION:\n\tfile\tRepresent the game board.")
+    print ("\tc1\tThe character to display for a wall.")
+    print ("\tc2\tThe character to displayfor an empty space.")
+    print ("\t-h\tHelp command.")
+    exit(84)
+    
+### ALGO ###
+
+def findPath(posF, posP, c1, c2):
+    global tab
+    prev = [posF]
+    accessPath = False
+    while len(prev) > 0:
+        tmp = []
+        for posP in prev: # check path & adjacency #
+            if checkMap(tmp, posP[0], posP[1] - 1, posP[2]) or checkMap(tmp, posP[0] + 1, posP[1], posP[2]) or checkMap(tmp, posP[0], posP[1] + 1, posP[2]) or checkMap(tmp, posP[0] - 1, posP[1], posP[2]): # check pacman accessibility #
+                accessPath = True # path found #
+                tmp = []
+                break
+        prev = tmp
+    if accessPath:
+        for elem in tab:
+            tmp = ""
+            for c in elem:
+                mapSS = {-1: c1, -2: c2, -3: 'F', -4: 'P'}.get(c, str(c % 10)) # define characters in map to print #
+                tmp = tmp + mapSS
+            print tmp # print the used path #
+    else:
+        printMaperror()
+        exit(84)
+
+def throwMap(content, c1, c2):
+    posF = None # phantom position #
+    posP = None # pacman position #
+    posL = 0
+    global tab
+    for line in content:
+        line = line.strip('\n').strip('\r').strip('\n')
+        tab.append([])
+        for i in range(0, len(line)):
+            if line[i] == 'F':
+                posF = (i, posL, 0) # phantom found #
+            elif line[i] == 'P':
+                posP = (i, posL) # pacman found #
+            mapS = {'1': -1, '0': -2, 'F': -3, 'P': -4}.get(line[i], -5) # define elem value in map #
+            if (mapS == -5):
+                printMaperror()
+            tab[posL].append(mapS)
+        posL = posL + 1 # browse map #
+    if ((posF is None) or (posP is None)): # check existence #
+        printMaperror()
+    findPath(posF, posP, c1, c2)
+    
+### PARSING ###
+
+def checkMap(tmp, x, y, z):
+    global tab
+    if x < 0 or y < 0 or x >= len(tab[y]) or y >= len(tab):
+        return False
+    if tab[y][x] == -4:
+        return True # pacman found by algorithm #
+    if tab[y][x] != -2:
+        return False # pacman not found #
+    tab[y][x] = z + 1
+    tmp.append((x, y, z + 1))
+        
+def checkFile():
+    if (len(sys.argv) == 4):
+        if not os.path.isfile(sys.argv[1]):
+            printError()
+        content = open(sys.argv[1])
+        c1 = sys.argv[2]
+        c2 = sys.argv[3]
+        if (len(c1) != 1 or len(c2) != 1) or c1 == c2:
+            printParameters()
+        throwMap(content, c1, c2) # search elems in map #
+    elif (len(sys.argv) == 2):
+        if (sys.argv[1] == "-h"):
+                printUsage()
+        else:
+                printError()
+    else:
+        printError()
+    exit(0)
+
+checkFile();

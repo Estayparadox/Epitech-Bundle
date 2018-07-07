@@ -1,0 +1,123 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import os, sys
+from math import *
+
+unique = None
+xchar = ":"
+rules = {}
+
+### USAGE ###
+
+def printUsage():
+    print("\nUSAGE:")
+    print("\t./303make Makefile [file]")
+    print("DESCRIPTION:")
+    print("\tMakefileThe Makefile you want to check")
+    print("\tfile\tContain the name of the recently modified file\n")
+
+### DICO ###
+    
+def makeDico(tmp):
+    count = 1
+    graph = {}
+    for i in range(len(tmp)):
+        if (count == 1):
+            if tmp[i] in graph:
+                graph[tmp[i]].append(tmp[i+1])
+            else:
+                graph[tmp[i]] = [tmp[i+1]]
+        if (count == 2):
+            if tmp[i] in graph:
+                graph[tmp[i]].append(tmp[i-1])
+            else:
+                graph[tmp[i]] = [tmp[i-1]]
+            count = 0
+        count = count + 1
+    print graph
+
+### PATH PRINTER ###
+    
+def findPath(graph, start, end, path=[]):
+    global unique
+    path = path + [start]
+    if (start == end):
+        return path
+    if not graph.has_key(start):
+        return None
+    for node in graph[start]:
+        if (node not in path):
+            newpath = findPath(graph, node, end, path)
+            if (newpath):
+                return newpath
+    return None
+
+### FILE CHECKER ###
+
+def fileChecker(content):
+    global xchar
+    global rules
+    for line in content:
+        if (line.find(xchar) != -1):
+            line = line.replace(xchar, "")
+            tmp = line.split(" ")
+            # tmp = line.split("\t")
+            count = 0
+            blank = ""
+            for line in tmp:
+                if (count == 0):
+                    count = count + 1
+                    blank = line
+                    rules[blank] = []
+                elif (line.find("\n") != -1):
+                    tmp = line[:line.rfind('\'')]
+                    rules[tmp] = []
+                    rules[blank].append(line[:line.rfind('\'')])
+                    count = 0
+                else:
+                    rules[line] = []
+                    rules[blank].append(line)
+
+### MATRIX ###
+
+def adjacencyMatrix():
+    global rules
+    tab = [[]]
+    count = 0
+    for x in sorted(rules.keys()):
+        tab.append([])
+        for x2 in sorted(rules.keys()):
+            if ((x2 in rules[x]) == True):
+                tab[count].append('1')
+            else:
+                tab[count].append('0')
+        print '[' + ' '.join(tab[count]) + ']'
+        count = count + 1
+    print                        
+
+### MAIN ###
+
+def parser():
+    if len(sys.argv) >= 2:
+        if not os.path.isfile(sys.argv[1]):
+            printUsage()
+            exit(84)
+        file = open(sys.argv[1])
+        content = file.readlines()
+        file.close()
+        if (len(sys.argv) == 2):
+            fileChecker(content)    
+            adjacencyMatrix()
+        elif (len(sys.argv) == 3):
+            print ("Searching path:...")
+            exit(0)
+        else:
+            printUsage()
+            exit(84)
+    else:
+        printUsage()
+        exit(84)
+    exit (0)
+
+parser();

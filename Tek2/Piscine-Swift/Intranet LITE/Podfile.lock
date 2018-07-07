@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (3.3.0)
+  - BButton (4.0.2)
+  - BRYXBanner (0.5.2):
+    - BRYXBanner/Core (= 0.5.2)
+  - BRYXBanner/Core (0.5.2)
+  - Kingfisher (2.2.0)
+  - PageController (0.3.1)
+  - SwiftyJSON (2.3.2)
+  - TVButton (0.1.5)
+  - WHRoundedImageView (1.1.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - BButton
+  - BRYXBanner
+  - Kingfisher (~> 2.2)
+  - PageController
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+  - TVButton (~> 0.1)
+  - WHRoundedImageView
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 9054db4a1b1ca9e363223183e01cea380159a27c
+  BButton: ab0f2ed3b998ae73c5188b57d270d81e4a1eeb27
+  BRYXBanner: 5f0911d52e0a77e088f7ea7ddcdebd02afb7828a
+  Kingfisher: 350869ed88d6451803b390475d977abdd9f0a357
+  PageController: 21843ffce26e77e5d141ed0639da8a11cfbcac5b
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TVButton: 8e8e5ba2890fd88f59b2ff5f84040f40b8c3efb0
+  WHRoundedImageView: 5d68870a4e1b5b5bfb215048940cf6c0d7aa2746
+
+COCOAPODS: 0.39.0

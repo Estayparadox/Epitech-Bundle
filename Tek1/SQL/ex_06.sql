@@ -1,1 +1,0 @@
-SELECT id_membre AS 'id_membre', id_fiche_perso AS 'id_perso', date_inscription AS 'date inscription', to_days(current_date) - to_days(date_inscription) AS 'nbr jours' FROM membre WHERE to_days(current_date) - to_days(date_inscription) <= 713 ORDER BY date_inscription DESC;

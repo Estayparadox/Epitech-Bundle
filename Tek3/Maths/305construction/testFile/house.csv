@@ -1,0 +1,9 @@
+Car;carpenter;4;Fou
+Hea;heat;3;Ele;Mas
+Cov;cover;2;Car
+Ele;electricity;1;Cov;Mas
+Fin;finishing touches;9;Cov;Ele;Mas;Plu
+Fou;foundations;8;Lan
+Mas;masonry;4;Lan;Fou
+Plu;plumbing;1;Ele;Mas
+Lan;landscaping;3

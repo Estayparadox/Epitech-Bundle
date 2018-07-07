@@ -1,0 +1,191 @@
+Advanced tests
+
+  rigueur - 7 tests
+    Arguments absurdes 1: OK
+      PASSED
+    Arguments absurdes 2: KO
+      Test failure: Expected exit status 84, got 0.
+    Contenu incohérent: OK
+      PASSED
+    Fichier inexistant: OK
+      PASSED
+    Fichier vide: OK
+      PASSED
+    Pas d'argument: OK
+      PASSED
+    Trop d'arguments: OK
+      PASSED
+  
+
+parcours en largeur - 22 tests
+  3 dépendances 1: KO
+    Test failure: Line 1 differs
+< cc -c tty.c
+> Searching path:...
+  3 dépendances 2: KO
+    Test failure: Line 1 differs
+< cc -c fc.c
+> Searching path:...
+  4 dépendances 1: KO
+    Test failure: Line 1 differs
+< gcc main.o func1.o func2.o -o proj
+> Searching path:...
+  4 dépendances 2: KO
+    Test failure: Line 1 differs
+< gcc -c func1.c -o func1.o
+> Searching path:...
+  8 dépendances 1: KO
+    Test failure: Line 1 differs
+< g++ -c device1.cpp
+> Searching path:...
+  8 dépendances 2: KO
+    Test failure: Line 1 differs
+< g++ -c client.cpp conn.o -o client.o
+> Searching path:...
+  99 dépendances 1: KO
+    Test failure: Line 1 differs
+< cc -c fc46.c
+> Searching path:...
+  99 dépendances 2: KO
+    Test failure: Line 1 differs
+< cc -o fc46 fc46.o fc45.o
+> Searching path:...
+  99 dépendances 3: KO
+    Test failure: Line 1 differs
+< cc -c fc22.c
+> Searching path:...
+  99 dépendances 4: KO
+    Test failure: Line 1 differs
+< cc -o fc22 fc22.o fc21.o
+> Searching path:...
+  beaucoup de dépendances 1: KO
+    Test failure: Line 1 differs
+< cc -c f19.c
+> Searching path:...
+  beaucoup de dépendances 2: KO
+    Test failure: Line 1 differs
+< cc -o f14 f01.o f02.o f03.o f04.o f05.o f06.o f07.o f08.o f09.o f10.o f11.o f12.o f13.o f14.o
+> Searching path:...
+  diamand complexe 1: KO
+    Test failure: Line 1 differs
+< compilation de a => b
+> Searching path:...
+  diamand complexe 2: KO
+    Test failure: Line 1 differs
+< compilation de c => d
+> Searching path:...
+  diamand simple 1: KO
+    Test failure: Line 1 differs
+< compilation de a => b
+> Searching path:...
+  diamand simple 2: KO
+    Test failure: Line 1 differs
+< compilation de b et c => d
+> Searching path:...
+  diamand très complexe 1: KO
+    Test failure: Line 1 differs
+< compilation de a => c
+> Searching path:...
+  diamand très complexe 2: KO
+    Test failure: Line 1 differs
+< compilation de a et c => b
+> Searching path:...
+  graphe non connexe 1: KO
+    Test failure: Line 1 differs
+< g++ -c device1.cpp
+> Searching path:...
+  graphe non connexe 2: KO
+    Test failure: Line 1 differs
+< g++ -c interface.cpp
+> Searching path:...
+  graphe non connexe 3: KO
+    Test failure: Line 1 differs
+< g++ client.o interface.o device1.o device2.o -o client
+> Searching path:...
+  graphe non connexe 4: KO
+    Test failure: Line 1 differs
+< g++ -c conn.cpp
+> Searching path:...
+
+parcours en profondeur - 9 tests
+  3 dépendances: KO
+    Test failure: Line 1 differs
+< fc.c -> fc.o -> tty
+> [0 0 0 0 0 0]
+  4 dépendances: KO
+    Test failure: Line 1 differs
+< func1.c -> func1.o -> proj
+> [1 0 0 0 0 0 0 1]
+  8 dépendances: KO
+    Test failure: Line 1 differs
+< client.cpp -> client.o -> client
+> [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  99 dépendances: KO
+    Test failure: Line 1 differs
+< fc01.c -> fc01.o -> fc02
+> [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  beaucoup de dépendances: KO
+    Test failure: Line 1 differs
+< f01.c -> f01.o -> f02
+> [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  diamand complexe: KO
+    Test failure: Line 1 differs
+< a -> b -> e
+> [1 0 0 0 0]
+  diamand simple: KO
+    Test failure: Line 1 differs
+< a -> b -> d
+> [1 0 0 0]
+  diamand très complexe: KO
+    Test failure: Line 1 differs
+< a -> b -> f
+> [1 0 1 0 0 0]
+  graphe non connexe: KO
+    Test failure: Line 1 differs
+< client.cpp -> client.o -> client
+> [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+
+parsing - 4 tests
+  1 dépendance, 2 commandes: KO
+    Test failure: Line 1 differs
+< echo -e "---> compilation de main.c\n"
+> Searching path:...
+  1 dépendance, rien à faire: KO
+    Test failure: Line 1 differs
+< 
+> Searching path:...
+  2 fichiers, 1 dépendance: KO
+    Test failure: Line 5 differs
+< main.c -> main.o
+> 
+  3 fichiers, 1 dépendance: KO
+    Test failure: Line 5 differs
+< main.c -> main.o -> main
+> 
+
+représentation de graphe - 9 tests
+  3 dépendances: OK
+    PASSED
+  4 dépendances: OK
+    PASSED
+  8 dépendances: OK
+    PASSED
+  99 dépendances: OK
+    PASSED
+  beaucoup de dépendances: KO
+    Test failure: Line 1 differs
+< [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+> [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  diamand complexe: KO
+    Test failure: Line 4 differs
+< [0 0 1 0 0]
+> [0 0 0 0 0]
+  diamand simple: OK
+    PASSED
+  diamand très complexe: KO
+    Test failure: Line 3 differs
+< [1 0 0 0 0 0]
+> [0 0 0 0 0 0]
+  graphe non connexe: OK
+    PASSED
+

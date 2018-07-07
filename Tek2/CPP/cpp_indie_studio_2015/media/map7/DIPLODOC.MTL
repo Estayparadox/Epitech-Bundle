@@ -1,0 +1,23 @@
+# Wavefront material library
+# Tue Aug 03 07:57:13 1999
+# Created with Viewpoint Interchange www.viewpoint.com
+
+newmtl dip_body
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\diplodoc.tif
+
+newmtl dip_iris
+  Ka 0 0 0
+  Kd 0 0 0
+  Ks 0 0 0
+  illum 2
+  map_Kd images\eye_hzl.tif
+
+newmtl dip_eye
+  Ka 0 0 0
+  Kd 0.392157 0.352941 0.352941
+  Ks 0.392157 0.352941 0.352941
+  illum 2

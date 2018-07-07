@@ -1,0 +1,15 @@
+main.c;fakeProj.h
+EXECUTABLE;fakeProj
+calcul.c;calc/calcul.h;fakeProj.h
+REP;fakeProj
+COMP;clang
+SOURCES;.
+CFLAGS;-ftest-coverage-O2
+LDFLAGS;
+HEADERS;include
+LIBS;libs
+REP_SVG;fakeProj_SVG
+ZIP;tar
+ZIPFLAGS;-cvvf
+UNZIP;tar
+UNZIPFLAGS;-xvf

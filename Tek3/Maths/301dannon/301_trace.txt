@@ -1,0 +1,130 @@
+algo avancé - 12 tests
+  10 entiers naturels: KO
+    Test failure: Line 1 differs
+< fusion sort: 23 comparisons
+> fusion sort: 19 comparisons
+  10 entiers relatifs: KO
+    Test failure: Line 1 differs
+< fusion sort: 21 comparisons
+> fusion sort: 20 comparisons
+  10 réels: KO
+    Test failure: Line 2 differs
+< quicksort: 19 comparisons
+> quicksort: 22 comparisons
+  100 entiers naturels: KO
+    Test failure: Line 1 differs
+< fusion sort: 550 comparisons
+> fusion sort: 417 comparisons
+  100 entiers relatifs: KO
+    Test failure: Line 1 differs
+< fusion sort: 530 comparisons
+> fusion sort: 410 comparisons
+  100 réels: KO
+    Test failure: Line 1 differs
+< fusion sort: 549 comparisons
+> fusion sort: 409 comparisons
+  1000 entiers naturels: OK
+    PASSED
+  1000 entiers relatifs: OK
+    PASSED
+  1000 réels: KO
+    Test failure: Line 1 differs
+< fusion sort: 8715 comparisons
+> fusion sort: 6214 comparisons
+  que des 0: KO
+    Test failure: Line 2 differs
+< quicksort: 211575 comparisons
+> quicksort: 0 comparison
+  trié: KO
+    Invalid exit status 1
+  trié à l'envers: KO
+    Invalid exit status 1
+
+algo simple - 10 tests
+  10 entiers naturels: KO
+    Test failure: Line 2 differs
+< insertion sort: 27 comparisons
+> insertion sort: 32 comparisons
+  10 entiers relatifs: KO
+    Test failure: Line 2 differs
+< insertion sort: 22 comparisons
+> insertion sort: 28 comparisons
+  10 réels: KO
+    Test failure: Line 2 differs
+< insertion sort: 33 comparisons
+> insertion sort: 24 comparisons
+  100 entiers naturels: KO
+    Test failure: Line 2 differs
+< insertion sort: 2448 comparisons
+> insertion sort: 2697 comparisons
+  100 entiers relatifs: KO
+    Test failure: Line 2 differs
+< insertion sort: 2334 comparisons
+> insertion sort: 2770 comparisons
+  100 réels: KO
+    Test failure: Line 2 differs
+< insertion sort: 2781 comparisons
+> insertion sort: 2484 comparisons
+  1000 réels: KO
+    Test failure: Line 2 differs
+< insertion sort: 252521 comparisons
+> insertion sort: 251120 comparisons
+  que des 0: KO
+    Test failure: Line 2 differs
+< insertion sort: 211575 comparisons
+> insertion sort: 650 comparisons
+  trié: KO
+    Invalid exit status 1
+  trié à l'envers: KO
+    Invalid exit status 1
+
+parsing - 9 tests
+  10 entiers naturels: OK
+    PASSED
+  10 entiers relatifs: OK
+    PASSED
+  10 réels: OK
+    PASSED
+  100 entiers naturels: OK
+    PASSED
+  100 entiers relatifs: OK
+    PASSED
+  100 réels: OK
+    PASSED
+  que des 0: OK
+    PASSED
+  trié: KO
+    Invalid exit status 1
+  trié à l'envers: KO
+    Invalid exit status 1
+
+parsing avancé (bonus) - 4 tests
+  avec caractères: KO
+    Invalid exit status 84
+  avec d'autres séparateurs: KO
+    Invalid exit status 84
+  avec des tabulations: OK
+    PASSED
+  avec plein d'espaces: OK
+    PASSED
+
+rigueur - 9 tests
+  1 entier naturel: OK
+    PASSED
+  1 entier relatif: OK
+    PASSED
+  1 réel: OK
+    PASSED
+  Argument absurde: OK
+    PASSED
+  Fichier inexistant: OK
+    PASSED
+  Fichier sans nombre: OK
+    PASSED
+  Fichier vide: OK
+    PASSED
+  Pas d'argument: OK
+    PASSED
+  Trop d'arguments: OK
+    PASSED
+

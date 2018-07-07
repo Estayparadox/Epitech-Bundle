@@ -1,0 +1,79 @@
+Advanced tests
+
+  rigueur - 8 tests
+    1 argument: OK
+      PASSED
+    2 argument: OK
+      PASSED
+    Arguments absurdes: OK
+      PASSED
+    Contenu incohérent: OK
+      PASSED
+    Fichier inexistant: OK
+      PASSED
+    Fichier vide: OK
+      PASSED
+    Pas d'argument: OK
+      PASSED
+    Trop d'arguments: OK
+      PASSED
+  
+
+parsing - 8 tests
+  0 case: OK
+    PASSED
+  Caractère inconnu: OK
+    PASSED
+  Map non rectangulaire: OK
+    PASSED
+  Pas d'arrivée: OK
+    PASSED
+  Pas de départ: OK
+    PASSED
+  Plusieurs arrivées: KO
+    Test failure: Expected exit status 84, got 0.
+  Plusieurs départs: KO
+    Test failure: Expected exit status 84, got 0.
+  Saut de ligne à la fin: KO
+    Test failure: Line 5 differs
+< <no line>
+> 
+
+plus court chemin - 9 tests
+  Grille 15x15: OK
+    PASSED
+  Grille 19x14: OK
+    PASSED
+  Grille 19x30: OK
+    PASSED
+  Grille 19x46 sans mur dedans: OK
+    PASSED
+  Grille 20x15: OK
+    PASSED
+  Grille 35x46 sans mur dedans: OK
+    PASSED
+  Grille 47x47 sans mur autour: KO
+    Invalid exit status 1
+  Grille 530x192 sans mur autour: OK
+    PASSED
+  Presque pas de mur: OK
+    PASSED
+
+plus court chemin facile - 8 tests
+  1 case: OK
+    PASSED
+  1 solution: OK
+    PASSED
+  2 cases: OK
+    PASSED
+  3 cases: OK
+    PASSED
+  Aucun chemin 1: OK
+    PASSED
+  Aucun chemin 2: OK
+    PASSED
+  Long couloir: OK
+    PASSED
+  Mini map: OK
+    PASSED
+

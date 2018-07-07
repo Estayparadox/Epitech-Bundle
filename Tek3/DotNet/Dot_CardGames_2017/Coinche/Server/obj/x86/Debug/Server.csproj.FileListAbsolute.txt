@@ -1,0 +1,10 @@
+/Users/josephpereniguez/Projects/Coinche_Dot_Net/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+/Users/josephpereniguez/Projects/Coinche_Dot_Net/Server/bin/Debug/Server.exe
+/Users/josephpereniguez/Projects/Coinche_Dot_Net/Server/bin/Debug/Server.pdb
+/Users/josephpereniguez/Projects/Coinche_Dot_Net/Server/obj/x86/Debug/Server.exe
+/Users/josephpereniguez/Projects/Coinche_Dot_Net/Server/obj/x86/Debug/Server.pdb
+/Users/josephpereniguez/Downloads/DOT_cardGames_2017/Coinche/Server/bin/Debug/Server.exe
+/Users/josephpereniguez/Downloads/DOT_cardGames_2017/Coinche/Server/bin/Debug/Server.pdb
+/Users/josephpereniguez/Downloads/DOT_cardGames_2017/Coinche/Server/obj/x86/Debug/Server.csproj.CoreCompileInputs.cache
+/Users/josephpereniguez/Downloads/DOT_cardGames_2017/Coinche/Server/obj/x86/Debug/Server.exe
+/Users/josephpereniguez/Downloads/DOT_cardGames_2017/Coinche/Server/obj/x86/Debug/Server.pdb

@@ -1,0 +1,26 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl MillenniumFalconBottom
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Millennium_Falcon_Bottom_D.tga
+//map_Bump  Millennium_Falcon_Bottom_N.tga
+
+newmtl MillenniumFalconTop
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Millennium_Falcon_Top_D.tga
+//map_Bump  Millennium_Falcon_Top_N.tga

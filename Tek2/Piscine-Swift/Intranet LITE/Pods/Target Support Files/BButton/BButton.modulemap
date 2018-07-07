@@ -1,0 +1,6 @@
+framework module BButton {
+  umbrella header "BButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,110 @@
+avanced graph representation - 9 tests
+  1 link, path size 2: OK
+    PASSED
+  1 link, path size 3: OK
+    PASSED
+  149 links, path size 2: KO
+    Invalid exit status 1
+  149 links, path size 6: KO
+    Invalid exit status 1
+  149 links, path size 9: KO
+    Invalid exit status 1
+  35 links, path size 2: KO
+    Test failure: Line 1 differs
+< 0 1 2 1 1 0 0 0 2 2 2 0 1 1 0
+> Pluto is friends with Balthazar Picsou
+  35 links, path size 5: KO
+    Test failure: Line 1 differs
+< 0 1 2 1 1 3 0 4 2 2 2 0 1 1 3
+> Pluto is friends with Balthazar Picsou
+  5 links, path size 2: KO
+    Test failure: Line 1 differs
+< 0 1 2 1 2
+> 0 0 0 0 0 1
+  5 links, path size 4: KO
+    Test failure: Line 1 differs
+< 0 1 2 1 2
+> 0 0 0 0 0 1
+
+parsing - 4 tests
+  1 link: KO
+    Test failure: Line 1 differs
+< Bioman jaune
+> 
+  149 links: KO
+    Invalid exit status 1
+  35 links: KO
+    Test failure: Line 1 differs
+< Balthazar Picsou
+> 
+  5 links: KO
+    Test failure: Line 1 differs
+< Arthur Dent
+> 
+
+rigor - 7 tests
+  Bad argument 1: KO
+    Test failure: Expected exit status 84, got 0.
+  Bad argument 2: KO
+    Test failure: Expected exit status 84, got 0.
+  Empty file: OK
+    PASSED
+  No argument: OK
+    PASSED
+  Not enough argument: OK
+    PASSED
+  Not existing file: OK
+    PASSED
+  Too much argument: OK
+    PASSED
+
+shortest path - 11 tests
+  big file: KO
+    Invalid exit status 1
+  big file bis: KO
+    Invalid exit status 1
+  medium file: KO
+    Test failure: Line 1 differs
+< degree of separation between Clarabelle and Dingo: 2
+> degree of separation between Clarabelle and Dingo: -1
+  medium file bis: KO
+    Test failure: Line 1 differs
+< degree of separation between Pat Hibulaire and Fifi: 1
+> degree of separation between Pat Hibulaire and Fifi: -1
+  size -1: OK
+    PASSED
+  size -1 bis: OK
+    PASSED
+  size -1 ter: OK
+    PASSED
+  size 0: KO
+    Test failure: Line 1 differs
+< degree of separation between Bioman jaune and Bioman jaune: 0
+> degree of separation between Bioman jaune and Bioman jaune: -1
+  size 1 trivial: KO
+    Test failure: Line 1 differs
+< degree of separation between Bioman jaune and Bioman rouge: 1
+> degree of separation between Bioman jaune and Bioman rouge: -1
+  small file: KO
+    Test failure: Line 1 differs
+< degree of separation between Arthur Dent and Ford Perfect: 1
+> degree of separation between Arthur Dent and Ford Perfect: -1
+  small file bis: KO
+    Test failure: Line 1 differs
+< degree of separation between Arthur Dent and Marvin: 2
+> degree of separation between Arthur Dent and Marvin: -1
+
+simple graph representation - 4 tests
+  1 link: OK
+    PASSED
+  149 links: KO
+    Invalid exit status 1
+  35 links: KO
+    Test failure: Line 1 differs
+< 0 1 0 1 1 0 0 0 0 0 0 0 1 1 0
+> Fifi is friends with Pat Hibulaire
+  5 links: KO
+    Test failure: Line 1 differs
+< 0 1 0 1 0
+> 
+

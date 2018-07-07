@@ -1,0 +1,8 @@
+tty: tty.o fc.o
+	cc -o tty tty.o fc.o
+
+tty.o: tty.c fc.h
+	cc -c tt.c
+
+fc.o: fc.c fc.h
+	cc -c fc.c

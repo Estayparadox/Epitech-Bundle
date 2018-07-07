@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['game',['Game',['../class_server_1_1_game.html#a515bb010add6f4030962a44440eaa87f',1,'Server::Game']]],
+  ['gamelaunching',['GameLaunching',['../class_server_1_1_lobby.html#ae0dd36c4fc573a63e2e5a6e0fe20ebd4',1,'Server::Lobby']]],
+  ['gamemanager',['GameManager',['../class_server_1_1_game_manager.html#ac56441eb84642844b5a88da2574bf6ed',1,'Server::GameManager']]],
+  ['getamount',['getAmount',['../class_server_1_1_contract.html#a7fd92f334ce9057ab0b9bebbb7e6c2b6',1,'Server::Contract']]],
+  ['getcards',['getCards',['../class_server_1_1_player.html#a9654b08409d2d8960189cc7524ee294b',1,'Server::Player']]],
+  ['getcolor',['getColor',['../class_server_1_1_card.html#a61f6de3bfec5bdabbc1c842bfc800e7f',1,'Server.Card.getColor()'],['../class_server_1_1_contract.html#a2070cf57620d1d5fa7e1e2a101186b6c',1,'Server.Contract.getColor()']]],
+  ['getid',['getId',['../class_server_1_1_player.html#a295581d763c8450d896b3c67b8af6113',1,'Server.Player.getId()'],['../class_server_1_1_game.html#a93bacab1089e6c64fe830e3b29ebd86a',1,'Server.Game.GetId()']]],
+  ['getmylistener',['GetMyListener',['../class_server_1_1_game_manager.html#af546438b5ffd60549c4988fa97ad4e6f',1,'Server::GameManager']]],
+  ['getplayers',['getPlayers',['../class_server_1_1_game.html#ad739725b368622e86ea9a372fe53c4cc',1,'Server::Game']]],
+  ['getreader',['GetReader',['../class_server_1_1_user_manager.html#a40a1ac46693887c435bcc14fb1055076',1,'Server::UserManager']]],
+  ['getscore',['getScore',['../class_server_1_1_player.html#ad83021a5fe1edf8b18852a8042e83e77',1,'Server::Player']]],
+  ['getstatus',['getStatus',['../class_server_1_1_contract.html#a2f1b2da1b2c20bc63f1b3f01f38615c3',1,'Server::Contract']]],
+  ['getteam',['getTeam',['../class_server_1_1_contract.html#a43bcd9c817484f8a2ece9aee31b782b0',1,'Server.Contract.getTeam()'],['../class_server_1_1_player.html#a9e5b24e2aad870d67cf8ba4e813e2111',1,'Server.Player.getTeam()']]],
+  ['getusermanager',['getUserManager',['../class_server_1_1_player.html#a5f0b1f56b6637e93bc16fbd5443d14aa',1,'Server::Player']]],
+  ['getvalue',['getValue',['../class_server_1_1_card.html#ab78b559122485a1cba3ff299592157a9',1,'Server::Card']]],
+  ['getwriter',['GetWriter',['../class_server_1_1_user_manager.html#a4684df81f4fe2be88a646d4dab4cbd97',1,'Server::UserManager']]]
+];
