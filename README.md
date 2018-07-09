@@ -44,6 +44,8 @@
 ## TEK 2
 ### C++ Pool
 - [Piscine-CPP](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-CPP) - ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
+### C++ Module (CPP)
+- [cpp_indie_studio_2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_indie_studio_2015) - 📚✅ -
 ### Basic Programming (CPE)
 - [Trade](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPE/Trade) - 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### Unix System Programming (PSU)
