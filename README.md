@@ -77,7 +77,7 @@
 - [Java_todolist_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_todolist_2017) - 📚 - A Java mobile application that give users possibility to create and manage their ToDo list.
 - [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) - ☑️ -
 ### DotNet Module
-- [DOT_CardGames_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/DotNet/DOT_CardGames_2017) - 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
+- [Dot_CardGames_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/DotNet/Dot_CardGames_2017) - 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
 - [301dannon](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/301dannon) - 📚✅ - A benchmark of different sorting algorithms that compare their execution speed developed in Python language.
 - [302separation](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/302separation) - 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
