@@ -45,14 +45,15 @@
 ### C++ Pool
 - [Piscine-CPP](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-CPP) - ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 ### C++ Module (CPP)
-- [cpp_indie_studio_2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_indie_studio_2015) - 📚✅ -
+- [cpp_indie_studio](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_indie_studio_2015) - 📚✅ -
+- [cpp_plazza](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_plazza) - ✅ -
 ### Basic Programming (CPE)
 - [Trade](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPE/Trade) - 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### Unix System Programming (PSU)
 - [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) - ☑️ -
 - [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) - ☑️ -
 - [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) - ☑️ -
-- [PSU_2015_malloc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_malloc) - ☑️ -
+- [PSU_2015_malloc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_malloc) - ✅ -
 - [PSU_2015_myftp](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myftp) - ☑️ -
 - [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) - ☑️ -
 - [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) - ⚠️ -
