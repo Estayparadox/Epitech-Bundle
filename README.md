@@ -60,7 +60,7 @@
 - [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) - ☑️ - IRC server and client respecting the 1459 RFC norm.
 - [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) - ⚠️ - "nm"  system command and "objdump -f -s" system command.
 ### Assembler Module (ASM)
-- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ - A minilib developped in Assembler language regrouping basic functions as putstr or getnbr.
+- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ✅ - A minilib developped in Assembler language regrouping basic functions as putstr or getnbr.
 ### Rush Network
 - [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ - Some exercices from Epitech network admin rush and Epitech cisco rush.
 ### Swift Pool
