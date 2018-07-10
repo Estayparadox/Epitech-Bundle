@@ -75,7 +75,7 @@
 ## TEK 3
 ### Java Module
 - [Java_area_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_area_2017) - ☑️ - IFTTT platform like including Twitter, Facebook, Gmail and more services... 
-- [Java_todolist_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_todolist_2017) - 📚 - A mobile application that give users possibility to create and manage their ToDo list.
+- [Java_todolist_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_todolist_2017) - 📚☑️ - A mobile application that give users possibility to create and manage their ToDo list.
 - [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) - ☑️ - A mobile app that regroup Instagram, Imgur and Flikr services.
 ### DotNet Module
 - [Dot_CardGames_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/DotNet/Dot_CardGames_2017) - 📚✅ - Coinche based game developed in C#, Solo and multiplayer mode.
