@@ -11,9 +11,9 @@
 ### C Pool
 - [Piscine-C](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
 ### Basic Programming (CPE)
-- [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) - ⚠️ -
-- [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) - ⚠️ -
-- [CPE_2014_bsq](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_bsq) - ⚠️ -
+- [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) - ⚠️ - Classifier program that sort a list using the fewest possible operations.
+- [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) - ⚠️ - A Matchsticks game based developped in C language including AI with which you can play against.
+- [CPE_2014_bsq](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_bsq) - ⚠️ - A program that finds the largest square in a map from a file.
 - [CPE_2014_get_next_line](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_get_next_line) - ⚠️ -
 - [marvin](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/marvin) - ☑️ - A C program that print the prototype of a function with the variable types.
 ### Unix System Programming (PSU)
@@ -47,17 +47,17 @@
 - [Piscine-CPP](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-CPP) - ✅ - Epitech C++ pool, containing some exercices developed in C++ language (2015).
 ### C++ Module (CPP)
 - [cpp_indie_studio](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_indie_studio_2015) - 📚✅ - A racing game (solo and multiplayer modes).
-- [cpp_plazza](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_plazza) - ✅ -
+- [cpp_plazza](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPP/cpp_plazza) - ✅ - A scrapper, composed of a master process with a user interface which receives commands and of several slave processes.
 ### Basic Programming (CPE)
 - [Trade](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/CPE/Trade) - 📚✅ - A C++ program that can give you the right moment to invest and how fluctuation of actions change.
 ### Unix System Programming (PSU)
-- [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) - ☑️ -
-- [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) - ☑️ -
-- [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) - ☑️ -
-- [PSU_2015_malloc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_malloc) - ✅ -
-- [PSU_2015_myftp](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myftp) - ☑️ -
-- [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) - ☑️ -
-- [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) - ⚠️ -
+- [PSU_2015_lemipc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_lemipc) - ☑️ - A two-dimensional game board developped in C language.
+- [PSU_2015_philo](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_philo) - ☑️ - A philosophers simulator
+- [PSU_2015_zappy](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_zappy) - ☑️ - A network game whose purpose is to confront on a tiles map containing resources.
+- [PSU_2015_malloc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_malloc) - ✅ - The Malloc function from the C library.
+- [PSU_2015_myftp](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myftp) - ☑️ - FTP server and client that handle several commands.
+- [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) - ☑️ - IRC server and client respecting the 1459 RFC norm.
+- [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) - ⚠️ - "nm"  system command and "objdump -f -s" system command.
 ### Assembler Module (ASM)
 - [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ - A minilib developped in Assembler language regrouping basic functions as putstr or getnbr.
 ### Rush Network
@@ -65,10 +65,10 @@
 ### Swift Pool
 - [Piscine-Swift](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-Swift) - ✅ - Some Swift exercices in Swift language.
 ### French Module (B)
-- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) - 🍎 -
-- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) - 🍎 -
-- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) - 🍎 -
-- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) - 🍎 -
+- [B2Emploi2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Emploi2015) - 🍎 - Professional operating mode.
+- [B2Preciser2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B2Preciser2015) - 🍎 - A professional specify letter.
+- [B4Biop2015](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Biop2015) - 🍎 - A professional biographical profile.
+- [B4Recadrer](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/B4Recadrer) - 🍎 - A letter to "reframe" a co-worker.
 - [Conte](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Conte) - 🍎 - Writing exercise telling a story about a monster.
 - [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) - 🍎 - Writing exercice telling a story about a disparition.
 
@@ -94,11 +94,13 @@
 - [B5MEMO](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5MEMO) - 🍎 - A professional memo.
 - [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 - Writing exercice telling a story.
 ## Tools
-- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
+- [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
+- [NormEZ](https://github.com/ronanboiteau/NormEZ) - - Epitech norme checker developped in Ruby.
 - [blih-web](https://github.com/maximelouet/blih-web) - 📚✅ - An awesome JavaScript tool using Blih.py that allow Epitech students an oversee of their repositories and their projects
 - [Exam-C-tek-2](https://github.com/Epicheat/Exam-C-tek-2) - 📚✅ - A known script that allow users to fill a C test (Deprecated).
 - [Exam-SQL](https://github.com/Epicheat/Exam-SQL) - 📚✅ - A known script that allow user to fill a SQL test (Deprecated).
-
+- [Dump-Epitech](https://github.com/kayofeld/script-installation-ordinateur-epitech) - 📚✅ - A script that installs Epitech packages on your Fedora.
+- [atom-epitech-headers](https://github.com/matthieukern/atom-epitech-headers) - 📚✅ - An Epitech header package developped in CoffeeScript that adds the official Epitech header to your files.
 ## Contribute
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
