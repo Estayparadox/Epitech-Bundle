@@ -1,6 +1,7 @@
 # Epitech-Bundle 
 ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 > A curated list of awesome tools used by Epitech students and projects developed at Epitech.
+> The main purpose of this directory is not to encourage students to cheat but to show the beauty of the code and the experience these Epitech students gain in this school.
 
 * 📚 The project is documented
 * ✅ The project is 100% functional
