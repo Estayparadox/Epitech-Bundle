@@ -1,41 +1,61 @@
 ##
-## Makefile for Makefile in /home/pereni_j/Rendu/asm_minilibc
-## 
-## Made by pereniguez joseph
+## Makefile for  in /home/pereni_j/Rendu/asm_minilibc
+##
+## Made by joseph pereniguez
 ## Login   <pereni_j@epitech.net>
-## 
-## Started on  Sun Mar 27 17:59:37 2016 pereniguez joseph
-## Last update Sun Mar 27 21:47:50 2016 pereniguez joseph
+##
+## Started on  Sat Mar  5 19:12:10 2016 pereniguez joseph
+## Last update Sun Mar 27 16:55:54 2016 pereniguez joseph
 ##
 
-SRC	=	strchr.S	\
-		memset.S	\
-		strlen.S
+SRC	= strlen.S 	\
+	  strncmp.S	\
+	  strcmp.S	\
+	  strcasecmp.S	\
+	  memset.S	\
+	  memcpy.S	\
+	  memmove.S	\
+	  putchar.S	\
+	  putstr.S	\
+	  strchr.S	\
+	  strstr.S	\
+	  rindex.S	\
+	  strcspn.S	\
+	  strpbrk.S
 
-CC	=	gcc
+OBJ	= $(addprefix $(OBJDIR), $(SRC:.S=.o))
 
-OBJ	=	$(SRC:.S=.o)
+RM	= rm -f
 
-NAME	=	libasm.so
+NASM	= nasm
+CC	= gcc
 
-CFLAGS	=	-shared -fPIC -W -Wall
+NAME	= libasm.so
 
-AS	=	./nasm -f elf
+OBJDIR	= obj/
+SRCDIR	= src/
+INCDIR	= -I includes/
 
-RM	=	rm -f
+MAKEOBJ		= obj
 
-all	:	$(NAME)
+SFLAGS	= -f elf64
+CFLAGS	= -W -Wall -Wextra -Werror -shared -fPIC
 
-$(NAME)	:	$(OBJ)
-		$(CC) $(CFLAGS) -o $(NAME) $(OBJ)
+$(OBJDIR)%.o: $(SRCDIR)%.S
+	@mkdir -p $(MAKEOBJ)
+	$(NASM) $(SFLAGS) -o $@ $<
 
-clean	:
-		$(RM) $(OBJ)
-		$(RM) *~
+$(NAME): $(OBJ)
+	$(CC) $(OBJ) -o $(NAME) $(CFLAGS)
 
-fclean	:	clean
-		$(RM) $(NAME)
+all:
+	@make --no-print-directory $(NAME)
 
-re	:	fclean all
+clean:
+	$(RM) $(OBJ)
 
-.PHONY	:	all clean fclean re
+fclean: clean
+	$(RM) $(NAME)
+	$(RM) -R $(OBJDIR)
+
+re: fclean all
