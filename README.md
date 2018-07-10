@@ -17,13 +17,13 @@
 - [CPE_2014_get_next_line](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_get_next_line) - ⚠️ -
 - [marvin](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/marvin) - ☑️ - A C program that print the prototype of a function with the variable types.
 ### Unix System Programming (PSU)
-- [PSU_2014_minishell1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell1) - ☑️ - A shell with some basic commands.
+- [PSU_2014_minishell1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell1) - ☑️ - A shell with some basic commands like "ls".
 - [PSU_2014_minishell2](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell2) - ☑️ - A shell with advanced commands like "cd".
-- [PSU_2014_minitalk](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minitalk) - ☑️ -
-- [PSU_2014_my_ls](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_ls) - ☑️ - "ls" shell function
-- [PSU_2014_my_printf](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_printf) - ☑️ - The printf function code in C language.
+- [PSU_2014_minitalk](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minitalk) - ☑️ - A client and a Server that respectively send and receive messages and display them depending of the speed gives as parameter.
+- [PSU_2014_my_ls](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_ls) - ☑️ - "ls" shell function listing all files and repositories you want.
+- [PSU_2014_my_printf](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_printf) - ☑️ - The printf function code in C language that print variable values and messages.
 - [PSU_2014_my_select](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_select) - ⚠️ - A project using termcaps, changing your terminal.
-- [BocalEmblem](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/BocalEmblem) - ☑️ -
+- [BocalEmblem](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/BocalEmblem) - ☑️ - A program that take a map as parameter and allow users to move their "warriors" and to get information about them.
 ### Graphic Programming (MUL)
 - [MUL_2014_rtv1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_rtv1) - ⚠️ - Different modelized objects using the Minilibx graphic library.
 - [MUL_2014_wolf3d](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/MUL/MUL_2014_wolf3d) - ⚠️ - A Wolf3D based game developped in C language using the Minilibx graphic library.
@@ -58,9 +58,9 @@
 - [PSU_2015_myirc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_myirc) - ☑️ -
 - [PSU_2015_nmobjdump](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/PSU/PSU_2015_nmobjdump) - ⚠️ -
 ### Assembler Module (ASM)
-- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ - A minilib developped in Assembler language.
+- [asm_minilibc](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/ASM/asm_minilibc) - ⚠️ - A minilib developped in Assembler language regrouping basic functions as putstr or getnbr.
 ### Rush Network
-- [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ - Some exercices from Epitech network rush.
+- [Cisco Rush](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Rush%20Network) - ✅ - Some exercices from Epitech network admin rush and Epitech cisco rush.
 ### Swift Pool
 - [Piscine-Swift](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/Piscine-Swift) - ✅ - Some Swift exercices in Swift language.
 ### French Module (B)
@@ -73,19 +73,19 @@
 
 ## TEK 3
 ### Java Module
-- [Java_area_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_area_2017) - ☑️ - A IFTTT platform like including Twitter, Facebook, Gmail more services... 
+- [Java_area_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_area_2017) - ☑️ - IFTTT platform like including Twitter, Facebook, Gmail and more services... 
 - [Java_todolist_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_todolist_2017) - 📚 - A mobile application that give users possibility to create and manage their ToDo list.
 - [Java_epicture_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Java/Java_epicture_2017) - ☑️ - A mobile app that regroup Instagram, Imgur and Flikr services.
 ### DotNet Module
-- [Dot_CardGames_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/DotNet/Dot_CardGames_2017) - 📚✅ - A Coinche based game developed in C#, Solo and multiplayer mode.
+- [Dot_CardGames_2017](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/DotNet/Dot_CardGames_2017) - 📚✅ - Coinche based game developed in C#, Solo and multiplayer mode.
 ### Maths
 - [301dannon](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/301dannon) - 📚✅ - A benchmark of different sorting algorithms that compare their execution speed developed in Python language.
 - [302separation](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/302separation) - 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
 - [303make](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/303make) - 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
 - [304pacman](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/304pacman) - 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
 - [305construction](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/305construction) 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
-- [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) - ⚠️ -
-- [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) - ⚠️ -
+- [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) - ⚠️ - A program that find how much ressources you need to have to produce the wanted quantity of grains developped in Python.
+- [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) - ⚠️ - A Python program that gives you the logics of a pipe making.
 - [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) - ⚠️ - A program that find the degree of pollution in a room from a data file developped in Python.
 ### French Module (B)
 - [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) - 🍎 - Professional emails exemples.
