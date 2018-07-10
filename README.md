@@ -95,7 +95,7 @@
 - [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 - Writing exercice telling a story.
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
-- [NormEZ](https://github.com/ronanboiteau/NormEZ) - - Epitech norme checker developped in Ruby.
+- [NormEZ](https://github.com/ronanboiteau/NormEZ) - 📚✅ - Epitech norme checker developped in Ruby.
 - [blih-web](https://github.com/maximelouet/blih-web) - 📚✅ - An awesome JavaScript tool using Blih.py that allow Epitech students an oversee of their repositories and their projects
 - [Exam-C-tek-2](https://github.com/Epicheat/Exam-C-tek-2) - 📚✅ - A known script that allow users to fill a C test (Deprecated).
 - [Exam-SQL](https://github.com/Epicheat/Exam-SQL) - 📚✅ - A known script that allow user to fill a SQL test (Deprecated).
