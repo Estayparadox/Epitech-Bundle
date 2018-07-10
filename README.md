@@ -98,3 +98,7 @@
 - [blih-web](https://github.com/maximelouet/blih-web) - 📚✅ - An awesome JavaScript tool using Blih.py that allow Epitech students an oversee of their repositories and their projects
 - [Exam-C-tek-2](https://github.com/Epicheat/Exam-C-tek-2) - 📚✅ - A known script that allow users to fill a C test (Deprecated).
 - [Exam-SQL](https://github.com/Epicheat/Exam-SQL) - 📚✅ - A known script that allow user to fill a SQL test (Deprecated).
+
+## Contribute
+Contributions are always welcome!
+Please read the [contribution guidelines](contributing.md) first.
