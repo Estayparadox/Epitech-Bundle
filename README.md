@@ -19,7 +19,7 @@
 ### Unix System Programming (PSU)
 - [PSU_2014_minishell1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell1) - ☑️ - A shell with some basic commands like "ls".
 - [PSU_2014_minishell2](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell2) - ☑️ - A shell with advanced commands like "cd".
-- [PSU_2014_42sh](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_42sh) - ✅ - A real shell that gives access to all traditional shell commands including redirections, pipes and more...
+- [PSU_2014_42sh](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_42sh) - ☑️ - A real shell that gives access to all traditional shell commands including redirections, pipes and more...
 - [PSU_2014_minitalk](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minitalk) - ☑️ - A client and a Server that respectively send and receive messages and display them depending of the speed gives as parameter.
 - [PSU_2014_my_ls](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_ls) - ☑️ - "ls" shell function listing all files and repositories you want.
 - [PSU_2014_my_printf](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_my_printf) - ☑️ - The printf function code in C language that print variable values and messages.
