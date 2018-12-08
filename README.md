@@ -74,6 +74,8 @@
 - [Disparition2016](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek2/B/Disparition2016) - 🍎 - Writing exercice telling a story about a disparition.
 
 ## TEK 3
+### Cryptographic Tools
+- [Pamela](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Security/pamela) - 📚✅ - A security project that create a pam module to open cipher containers (directories) when a user open his session.
 ### UML
 - [Airport Manager UML](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/UML) - 📚✅ - The UML, class diagram and structure of the code for an airport manager.
 ### Java Module
