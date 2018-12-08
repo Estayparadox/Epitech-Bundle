@@ -109,3 +109,4 @@
 ## Contribute
 Contributions are always welcome!
 Please read the [contribution guidelines](contributing.md) first.
+You can also check the [code of conduct](https://github.com/Estayparadox/Epitech-Bundle/blob/master/CODE_OF_CONDUCT.md) and the [pull request template](https://github.com/Estayparadox/Epitech-Bundle/blob/master/PULL_REQUEST_TEMPLATE.md) for more information.
