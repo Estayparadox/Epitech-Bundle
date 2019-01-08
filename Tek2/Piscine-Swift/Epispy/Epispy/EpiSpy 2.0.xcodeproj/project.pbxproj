@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6DD260816598146DB45F369 /* Pods_Epispy_2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D71BF5463548423D4200320 /* Pods_Epispy_2_0.framework */; };
+		BFE32BE41CCE3CFF00F80965 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32BE31CCE3CFF00F80965 /* AppDelegate.swift */; };
+		BFE32BE61CCE3CFF00F80965 /* pageLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32BE51CCE3CFF00F80965 /* pageLogin.swift */; };
+		BFE32BE91CCE3CFF00F80965 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE32BE71CCE3CFF00F80965 /* Main.storyboard */; };
+		BFE32BEB1CCE3CFF00F80965 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE32BEA1CCE3CFF00F80965 /* Assets.xcassets */; };
+		BFE32BEE1CCE3CFF00F80965 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE32BEC1CCE3CFF00F80965 /* LaunchScreen.storyboard */; };
+		BFE32BF91CCE3D0000F80965 /* Epispy_2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32BF81CCE3D0000F80965 /* Epispy_2_0Tests.swift */; };
+		BFE32C041CCE60E100F80965 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32C031CCE60E100F80965 /* APIManager.swift */; };
+		BFE32C061CCE657600F80965 /* userClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32C051CCE657600F80965 /* userClass.swift */; };
+		BFE32C081CCE676E00F80965 /* viewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE32C071CCE676E00F80965 /* viewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFE32BF51CCE3D0000F80965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFE32BD81CCE3CFF00F80965 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFE32BDF1CCE3CFF00F80965;
+			remoteInfo = "Epispy 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D71BF5463548423D4200320 /* Pods_Epispy_2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epispy_2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F0C5DF25EA1959C1CE56689 /* Pods-Epispy 2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epispy 2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-Epispy 2.0/Pods-Epispy 2.0.release.xcconfig"; sourceTree = "<group>"; };
+		6D54E4603DF08F9A8BFD9453 /* Pods-Epispy 2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epispy 2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Epispy 2.0/Pods-Epispy 2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		BFE32BE01CCE3CFF00F80965 /* Epispy 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epispy 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE32BE31CCE3CFF00F80965 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFE32BE51CCE3CFF00F80965 /* pageLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageLogin.swift; sourceTree = "<group>"; };
+		BFE32BE81CCE3CFF00F80965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFE32BEA1CCE3CFF00F80965 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFE32BED1CCE3CFF00F80965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFE32BEF1CCE3CFF00F80965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE32BF41CCE3CFF00F80965 /* Epispy 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Epispy 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE32BF81CCE3D0000F80965 /* Epispy_2_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epispy_2_0Tests.swift; sourceTree = "<group>"; };
+		BFE32BFA1CCE3D0000F80965 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE32C031CCE60E100F80965 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		BFE32C051CCE657600F80965 /* userClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userClass.swift; sourceTree = "<group>"; };
+		BFE32C071CCE676E00F80965 /* viewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE32BDD1CCE3CFF00F80965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DD260816598146DB45F369 /* Pods_Epispy_2_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE32BF11CCE3CFF00F80965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A08E148B4846ECCAEB34B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D71BF5463548423D4200320 /* Pods_Epispy_2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5279A20BA7BDEB6A4F1DE456 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D54E4603DF08F9A8BFD9453 /* Pods-Epispy 2.0.debug.xcconfig */,
+				0F0C5DF25EA1959C1CE56689 /* Pods-Epispy 2.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFE32BD71CCE3CFF00F80965 = {
+			isa = PBXGroup;
+			children = (
+				BFE32BE21CCE3CFF00F80965 /* Epispy 2.0 */,
+				BFE32BF71CCE3D0000F80965 /* Epispy 2.0Tests */,
+				BFE32BE11CCE3CFF00F80965 /* Products */,
+				5279A20BA7BDEB6A4F1DE456 /* Pods */,
+				4A08E148B4846ECCAEB34B1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE32BE11CCE3CFF00F80965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE32BE01CCE3CFF00F80965 /* Epispy 2.0.app */,
+				BFE32BF41CCE3CFF00F80965 /* Epispy 2.0Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE32BE21CCE3CFF00F80965 /* Epispy 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				BFE32BE31CCE3CFF00F80965 /* AppDelegate.swift */,
+				BFE32BE51CCE3CFF00F80965 /* pageLogin.swift */,
+				BFE32BE71CCE3CFF00F80965 /* Main.storyboard */,
+				BFE32BEA1CCE3CFF00F80965 /* Assets.xcassets */,
+				BFE32C031CCE60E100F80965 /* APIManager.swift */,
+				BFE32C071CCE676E00F80965 /* viewController.swift */,
+				BFE32C051CCE657600F80965 /* userClass.swift */,
+				BFE32BEC1CCE3CFF00F80965 /* LaunchScreen.storyboard */,
+				BFE32BEF1CCE3CFF00F80965 /* Info.plist */,
+			);
+			path = "Epispy 2.0";
+			sourceTree = "<group>";
+		};
+		BFE32BF71CCE3D0000F80965 /* Epispy 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BFE32BF81CCE3D0000F80965 /* Epispy_2_0Tests.swift */,
+				BFE32BFA1CCE3D0000F80965 /* Info.plist */,
+			);
+			path = "Epispy 2.0Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE32BDF1CCE3CFF00F80965 /* Epispy 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE32BFD1CCE3D0000F80965 /* Build configuration list for PBXNativeTarget "Epispy 2.0" */;
+			buildPhases = (
+				606A025894688B44B20926CA /* Check Pods Manifest.lock */,
+				BFE32BDC1CCE3CFF00F80965 /* Sources */,
+				BFE32BDD1CCE3CFF00F80965 /* Frameworks */,
+				BFE32BDE1CCE3CFF00F80965 /* Resources */,
+				72BD9F5D589B6793D077D265 /* Embed Pods Frameworks */,
+				517BFF6682EE220E5C08F835 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Epispy 2.0";
+			productName = "Epispy 2.0";
+			productReference = BFE32BE01CCE3CFF00F80965 /* Epispy 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFE32BF31CCE3CFF00F80965 /* Epispy 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE32C001CCE3D0000F80965 /* Build configuration list for PBXNativeTarget "Epispy 2.0Tests" */;
+			buildPhases = (
+				BFE32BF01CCE3CFF00F80965 /* Sources */,
+				BFE32BF11CCE3CFF00F80965 /* Frameworks */,
+				BFE32BF21CCE3CFF00F80965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFE32BF61CCE3D0000F80965 /* PBXTargetDependency */,
+			);
+			name = "Epispy 2.0Tests";
+			productName = "Epispy 2.0Tests";
+			productReference = BFE32BF41CCE3CFF00F80965 /* Epispy 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE32BD81CCE3CFF00F80965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joseph Pereniguez";
+				TargetAttributes = {
+					BFE32BDF1CCE3CFF00F80965 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9E8YC38ND;
+						LastSwiftMigration = 0820;
+					};
+					BFE32BF31CCE3CFF00F80965 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E9E8YC38ND;
+						LastSwiftMigration = 0820;
+						TestTargetID = BFE32BDF1CCE3CFF00F80965;
+					};
+				};
+			};
+			buildConfigurationList = BFE32BDB1CCE3CFF00F80965 /* Build configuration list for PBXProject "Epispy 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFE32BD71CCE3CFF00F80965;
+			productRefGroup = BFE32BE11CCE3CFF00F80965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE32BDF1CCE3CFF00F80965 /* Epispy 2.0 */,
+				BFE32BF31CCE3CFF00F80965 /* Epispy 2.0Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE32BDE1CCE3CFF00F80965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE32BEE1CCE3CFF00F80965 /* LaunchScreen.storyboard in Resources */,
+				BFE32BEB1CCE3CFF00F80965 /* Assets.xcassets in Resources */,
+				BFE32BE91CCE3CFF00F80965 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE32BF21CCE3CFF00F80965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		517BFF6682EE220E5C08F835 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Epispy 2.0/Pods-Epispy 2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		606A025894688B44B20926CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72BD9F5D589B6793D077D265 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Epispy 2.0/Pods-Epispy 2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE32BDC1CCE3CFF00F80965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE32C081CCE676E00F80965 /* viewController.swift in Sources */,
+				BFE32C041CCE60E100F80965 /* APIManager.swift in Sources */,
+				BFE32BE61CCE3CFF00F80965 /* pageLogin.swift in Sources */,
+				BFE32BE41CCE3CFF00F80965 /* AppDelegate.swift in Sources */,
+				BFE32C061CCE657600F80965 /* userClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFE32BF01CCE3CFF00F80965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE32BF91CCE3D0000F80965 /* Epispy_2_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFE32BF61CCE3D0000F80965 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFE32BDF1CCE3CFF00F80965 /* Epispy 2.0 */;
+			targetProxy = BFE32BF51CCE3D0000F80965 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFE32BE71CCE3CFF00F80965 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE32BE81CCE3CFF00F80965 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFE32BEC1CCE3CFF00F80965 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFE32BED1CCE3CFF00F80965 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFE32BFB1CCE3D0000F80965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFE32BFC1CCE3D0000F80965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFE32BFE1CCE3D0000F80965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D54E4603DF08F9A8BFD9453 /* Pods-Epispy 2.0.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Epispy 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Estay.Epispy-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BFE32BFF1CCE3D0000F80965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F0C5DF25EA1959C1CE56689 /* Pods-Epispy 2.0.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Epispy 2.0/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Estay.Epispy-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BFE32C011CCE3D0000F80965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Epispy 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Estay.Epispy-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epispy 2.0.app/Epispy 2.0";
+			};
+			name = Debug;
+		};
+		BFE32C021CCE3D0000F80965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Epispy 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Estay.Epispy-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Epispy 2.0.app/Epispy 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE32BDB1CCE3CFF00F80965 /* Build configuration list for PBXProject "Epispy 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE32BFB1CCE3D0000F80965 /* Debug */,
+				BFE32BFC1CCE3D0000F80965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE32BFD1CCE3D0000F80965 /* Build configuration list for PBXNativeTarget "Epispy 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE32BFE1CCE3D0000F80965 /* Debug */,
+				BFE32BFF1CCE3D0000F80965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE32C001CCE3D0000F80965 /* Build configuration list for PBXNativeTarget "Epispy 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE32C011CCE3D0000F80965 /* Debug */,
+				BFE32C021CCE3D0000F80965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE32BD81CCE3CFF00F80965 /* Project object */;
+}

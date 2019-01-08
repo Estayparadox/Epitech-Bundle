@@ -15,7 +15,6 @@
 - [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) - ⚠️ - Classifier program that sort a list using the fewest possible operations.
 - [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) - ⚠️ - A Matchsticks game based developped in C language including AI with which you can play against.
 - [CPE_2014_bsq](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_bsq) - ⚠️ - A program that finds the largest square in a map from a file.
-- [CPE_2014_get_next_line](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_get_next_line) - ⚠️ -
 - [marvin](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/marvin) - ☑️ - A C program that print the prototype of a function with the variable types.
 ### Unix System Programming (PSU)
 - [PSU_2014_minishell1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/PSU/PSU_2014_minishell1) - ☑️ - A shell with some basic commands like "ls".
