@@ -88,10 +88,14 @@
 - [302separation](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/302separation) - 📚✅ - A Python program that find degree of separation between people thanks to Floyd-Warshall algorithm, a transitive relation algorithm.
 - [303make](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/303make) - 📚✅ - A program that print an adjacency matrix from a Makefile developed in Python language.
 - [304pacman](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/304pacman) - 📚✅ - A Python program that finds the shortest path between a ghost and Pacman from a map.
-- [305construction](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/305construction) 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
+- [305construction](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/305construction) - 📚✅ - A project’s software that helps organize construction, that describes all of the project’s tasks developed in Python language.
 - [307multigrains](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/307multigrains) - ⚠️ - A program that find how much ressources you need to have to produce the wanted quantity of grains developped in Python.
 - [308reedpipes](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/308reedpipes) - ⚠️ - A Python program that gives you the logics of a pipe making.
 - [309pollution](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Maths/309pollution) - ⚠️ - A program that find the degree of pollution in a room from a data file developped in Python.
+### Swift Pool
+- [Trello-LITE](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Piscine-Swift/Trello-LITE) - 📚✅ - A Trello application like developed in Swift during the "Swift Pool 2" at Epitech Nice.
+### Epitech X EDHEC
+- [Triplan](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/Epitech-X-EDHEC/Triplan) - 📚✅ - iOS application made during the Challenge Smart City X Epitech X Edhec in 2017. This app is a touristic companion.
 ### French Module (B)
 - [B53EMAILS](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B53EMAILS) - 🍎 - Professional emails exemples.
 - [B5AVOCAT](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/B5AVOCAT) - 🍎 - Writing exercice.
