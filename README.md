@@ -103,7 +103,14 @@
 - [FICTION1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek3/B/FICTION1) - 🍎 - Writing exercice telling a story.
 
 ## TEK 4
-- [My Google Drive](https://drive.google.com/drive/folders/1kCFUlemNrKlHYC9VDtXGpglCHKw3Y-pX?usp=sharing) - 📚✅ - All the courses I have attended and the information / projects / assignments related to these courses.
+- [Course details](https://drive.google.com/drive/folders/1CiRcIAZrXU-YoDI82qFVX4y53q5Kg2z8?usp=sharing) - 🍎 - Schedules and course details.
+- [Advanced Algorithm Analysis and Design](https://drive.google.com/drive/folders/1UwlwDMtgr-do5SeF_m9_frEMs3iQzpWQ?usp=sharing) - 📚✅ - All the information / projects / assignments related to Advanced Algorithm Analysis and Design courses.
+- [Big Data Fusion and Data Warehouse](https://drive.google.com/drive/folders/1zPuBaOnvPI_-L4hdH3LjxGgIPzhHzp9K?usp=sharing) - 📚✅ - All the information / projects / assignments related to Big Data Fusion and Data Warehouse courses.
+- [Data Science and Knowledge Discovery](https://drive.google.com/drive/folders/1BGSWW66qRlP0V6hnMypnGo7qGqXdt8ia?usp=sharing) - 📚✅ - All the information / projects / assignments related to Data Science and Knowledge Discovery courses.
+- [Engineering Ethic](https://drive.google.com/drive/folders/1DrVw4cgK5acXqS00Io7BHWCZYXPWYdad?usp=sharing) - 📚✅ - All the information / projects / assignments related to Engineering Ethic courses.
+- [Mobile Application Development](https://drive.google.com/drive/folders/16WTiLFTcGsQ3yz-V5t9kPHQtM6XBOA9P?usp=sharing) - 📚✅ - All the information / projects / assignments related to Mobile Application Development courses.
+- [Natural Language Processing](https://drive.google.com/drive/folders/1tdhvZSc3Ots0YEExlQNQBBZSC2pwQRC1?usp=sharing) - 📚✅ - All the information / projects / assignments related to Natural Language Processing courses.
+- [Software Service Engineering](https://drive.google.com/drive/folders/10o3-AZCSM2IHQJVtBWraXaWiIHLJHWhr?usp=sharing) - 📚✅ - All the information / projects / assignments related to Software Service Engineering courses.
 
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
