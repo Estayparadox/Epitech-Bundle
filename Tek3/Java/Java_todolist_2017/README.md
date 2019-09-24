@@ -15,5 +15,5 @@ So this app is developed in Java (Webviews and NDK Android usage prohibited), co
 • a content</br>
 • a due date/time</br>
 ## Some screenshots
-<img src="https://github.com/Estayparadox/ToDoList/blob/master/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.09.png" alt="" data-canonical-src="https://github.com/Estayparadox/ToDoList/blob/master/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.09.png" align="left" width="250" height="400" />
-<img src="https://github.com/Estayparadox/ToDoList/blob/master/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.18.png" alt="" data-canonical-src="https://github.com/Estayparadox/ToDoList/blob/master/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.18.png" align="center" width="250" height="400" />
+<img src="https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek3/Java/Java_todolist_2017/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.09.png" alt="" data-canonical-src="https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek3/Java/Java_todolist_2017/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.09.png" align="left" width="250" height="400" />
+<img src="https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek3/Java/Java_todolist_2017/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.18.png" alt="" data-canonical-src="https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek3/Java/Java_todolist_2017/Screenshots/Capture%20d’écran%202018-01-09%20à%2017.22.18.png" align="center" width="250" height="400" />
