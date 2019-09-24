@@ -8,7 +8,7 @@ Hyper_sprint is a c++ game from Epitech cpp_indie_studio project which takes the
 USAGE:
     ./Hyper_Sprint
 ```
-![image1](https://github.com/Estayparadox/cpp_indie_studio/blob/master/Screenshots/1509356569-splashscreen4.jpg)
+![image1](https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek2/CPP/cpp_indie_studio/Screenshots/1509356569-splashscreen4.jpg)
 </br>
 After the cpp_indie_studio splash screen you can navigate in our menu and manage your settings before launching a game, enjoy!</br>
-![image2](https://github.com/Estayparadox/cpp_indie_studio/blob/master/Screenshots/1509356574-menu.jpg)
+![image2](https://github.com/Estayparadox/Epitech-Bundle/blob/master/Tek2/CPP/cpp_indie_studio/Screenshots/1509356574-menu.jpg)
