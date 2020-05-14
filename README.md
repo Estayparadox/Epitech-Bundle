@@ -106,11 +106,14 @@
 - [Course details](https://drive.google.com/drive/folders/1CiRcIAZrXU-YoDI82qFVX4y53q5Kg2z8?usp=sharing) - 🍎 - Schedules and course details; to access the courses below introduce yourself and simply ask for authorization.
 - [Advanced Algorithm Analysis and Design](https://drive.google.com/drive/u/1/folders/1UwlwDMtgr-do5SeF_m9_frEMs3iQzpWQ) - 📚✅ - All the information / projects / assignments related to Advanced Algorithm Analysis and Design courses.
 - [Big Data Fusion and Data Warehouse](https://drive.google.com/drive/u/1/folders/1zPuBaOnvPI_-L4hdH3LjxGgIPzhHzp9K) - 📚✅ - All the information / projects / assignments related to Big Data Fusion and Data Warehouse courses.
-- [Data Science and Knowledge Discovery](https://drive.google.com/drive/u/1/folders/1BGSWW66qRlP0V6hnMypnGo7qGqXdt8ia) - 📚✅ - All the information / projects / assignments related to Data Science and Knowledge Discovery courses.
-- [Engineering Ethic](https://drive.google.com/drive/u/1/folders/1DrVw4cgK5acXqS00Io7BHWCZYXPWYdad) - 📚✅ - All the information / projects / assignments related to Engineering Ethic courses.
+- [Data Science and Knowledge Discovery](https://drive.google.com/drive/u/1/folders/1BGSWW66qRlP0V6hnMypnGo7qGqXdt8ia) - 🍎 - All the information / projects / assignments related to Data Science and Knowledge Discovery courses.
+- [Engineering Ethic](https://drive.google.com/drive/u/1/folders/1DrVw4cgK5acXqS00Io7BHWCZYXPWYdad) - 🍎 - All the information / projects / assignments related to Engineering Ethic courses.
 - [Mobile Application Development](https://drive.google.com/drive/u/1/folders/16WTiLFTcGsQ3yz-V5t9kPHQtM6XBOA9P) - 📚✅ - All the information / projects / assignments related to Mobile Application Development courses.
 - [Natural Language Processing](https://drive.google.com/drive/u/1/folders/1tdhvZSc3Ots0YEExlQNQBBZSC2pwQRC1) - 📚✅ - All the information / projects / assignments related to Natural Language Processing courses.
 - [Software Service Engineering](https://drive.google.com/drive/u/1/folders/10o3-AZCSM2IHQJVtBWraXaWiIHLJHWhr) - 📚✅ - All the information / projects / assignments related to Software Service Engineering courses.
+
+## TEK 5
+- [Project Managment](https://drive.google.com/drive/u/0/folders/1LnDrGwRUjqGn8RcnkFQ0jJp4_PH-iJUd) - 🍎 - All the documentation related to Project Managment courses.
 
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
