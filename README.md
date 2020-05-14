@@ -114,6 +114,7 @@
 
 ## TEK 5
 - [Project Managment](https://drive.google.com/drive/u/0/folders/1LnDrGwRUjqGn8RcnkFQ0jJp4_PH-iJUd) - 🍎 - All the documentation related to Project Managment courses.
+- [Algorithmic - Hash](https://drive.google.com/drive/u/0/folders/1u01mUqjYl67hZyKyBdipu4mgz4Qqf2d0) - 📚✅ - All the documentation related to Algorithmic / Hash courses.
 
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
