@@ -113,12 +113,12 @@
 - [Software Service Engineering](https://drive.google.com/drive/u/1/folders/10o3-AZCSM2IHQJVtBWraXaWiIHLJHWhr) - 📚✅ - All the information / projects / assignments related to Software Service Engineering courses.
 
 ## TEK 5
-- [Project Managment]() - 📦 - documentation not available.
-- [Algorithmic - Hash]() - 📦 - documentation not available.
-- [Algorithmic - Trees]() - 📦 - documentation not available.
-- [Algorithmic - Graphs]() - 📦 - documentation not available.
-- [Agile and Scrum Management]() - 📦 - documentation not available.
-- [RGPD]() - 📦 - documentation not available.
+- [Project Managment](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
+- [Algorithmic - Hash](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
+- [Algorithmic - Trees](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
+- [Algorithmic - Graphs](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
+- [Agile and Scrum Management](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
+- [RGPD](https://github.com/Estayparadox/Epitech-Bundle/blob/master/README.md) - 📦 - documentation not available.
 
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
