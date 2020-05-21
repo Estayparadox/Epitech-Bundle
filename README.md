@@ -113,8 +113,12 @@
 - [Software Service Engineering](https://drive.google.com/drive/u/1/folders/10o3-AZCSM2IHQJVtBWraXaWiIHLJHWhr) - 📚✅ - All the information / projects / assignments related to Software Service Engineering courses.
 
 ## TEK 5
-- [Project Managment](https://drive.google.com/drive/u/0/folders/1LnDrGwRUjqGn8RcnkFQ0jJp4_PH-iJUd) - 🍎 - All the documentation related to Project Managment courses.
-- [Algorithmic - Hash](https://drive.google.com/drive/u/0/folders/1u01mUqjYl67hZyKyBdipu4mgz4Qqf2d0) - 📚✅ - All the documentation related to Algorithmic / Hash courses.
+- [Project Managment]() - 📦 - documentation not available.
+- [Algorithmic - Hash]() - 📦 - documentation not available.
+- [Algorithmic - Trees]() - 📦 - documentation not available.
+- [Algorithmic - Graphs]() - 📦 - documentation not available.
+- [Agile and Scrum Management]() - 📦 - documentation not available.
+- [RGPD]() - 📦 - documentation not available.
 
 ## Tools
 - [Epitech-Norme-Checker](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tools/Epitech-Norme-Checker) - 📚✅ - A Python program that find synthax errors in your files, referring to Epitech coding style, and show you where there are.
