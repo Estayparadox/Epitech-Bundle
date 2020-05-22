@@ -12,7 +12,7 @@
 ### C Pool
 - [Piscine-C](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/Piscine-C) - ✅ - Epitech C pool, containing a mini-lib developed in C language and some projects (2014).
 ### Basic Programming (CPE)
-- [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) - ⚠️ - Classifier program that sort a list using the fewest possible operations.
+- [CPE_2014_Pushswap](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_Pushswap) - 📚✅ - Classifier program that sort a list using the fewest possible operations.
 - [CPE_2014_allum1](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_allum1) - ⚠️ - A Matchsticks game based developped in C language including AI with which you can play against.
 - [CPE_2014_bsq](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/CPE_2014_bsq) - ⚠️ - A program that finds the largest square in a map from a file.
 - [marvin](https://github.com/Estayparadox/Epitech-Bundle/tree/master/Tek1/CPE/marvin) - ☑️ - A C program that print the prototype of a function with the variable types.

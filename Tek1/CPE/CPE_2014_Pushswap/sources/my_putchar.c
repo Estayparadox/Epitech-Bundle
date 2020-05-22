@@ -8,11 +8,10 @@
 ** Last update Sun Dec 14 20:27:41 2014 Pereniguez Joseph
 */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include <unistd.h>
 #include "pushswap.h"
 
-int	my_putchar(char c)
+void	my_putchar(char c)
 {
   write(1, &c, 1);
 }

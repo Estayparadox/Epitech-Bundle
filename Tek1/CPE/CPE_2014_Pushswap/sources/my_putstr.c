@@ -8,18 +8,15 @@
 ** Last update Sun Dec 14 20:29:59 2014 Pereniguez Joseph
 */
 
-#include <stdlib.h>
-#include <stdio.h>
 #include "pushswap.h"
 
-int	my_putstr(char *str)
+void	    my_putstr(char *str)
 {
-  char	i;
+    int	i;
 
-  i = 0;
-  while (str[i] != '\0')
-    {
-      my_putchar(str[i]);
-      i = i + 1;
+    i = 0;
+    while (str[i] != '\0') {
+        my_putchar(str[i]);
+        i = i + 1;
     }
 }

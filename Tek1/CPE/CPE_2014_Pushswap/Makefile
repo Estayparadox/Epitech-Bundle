@@ -8,15 +8,14 @@
 ## Last update Sun Dec 14 20:38:50 2014 Pereniguez Joseph
 ##
 
-SRC    =        my_getnbr.c		\
-		my_putchar.c		\
-		main.c			\
-		s_funct.c		\
-		p_funct.c		\
-		r_funct	.c		\
-		rr_funct.c		\
-		pushswap.c		\
-		my_putstr.c
+SRC    =        sources/my_getnbr.c		\
+                sources/my_putchar.c	\
+                sources/my_putstr.c     \
+		        sources/main.c			\
+		        sources/actions.c       \
+		        sources/my_power_rec.c  \
+		        sources/pushswap.c
+
 
 CFLAGS =        -Wextra -Wall -Werror -pedantic
 
