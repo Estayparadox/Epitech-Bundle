@@ -8,16 +8,16 @@
 ## Last update Sun Jan  4 23:28:54 2015 georges valentin
 ##
 
-SRC    =	main.c		\
-		my_putchar.c	\
-		my_putstr.c	\
-		fonction.c	\
-		my_strcomp.c	\
-		check_error.c	\
-		var_type.c	\
-		var_name.c	\
-		proto5.c	\
-		param.c					
+SRC    =	sources/main.c		    \
+		    sources/my_putchar.c	\
+		    sources/my_putstr.c	    \
+		    sources/fonction.c	    \
+		    sources/my_strcomp.c	\
+		    sources/check_error.c	\
+		    sources/var_type.c	    \
+		    sources/var_name.c	    \
+		    sources/proto5.c	    \
+		    sources/param.c
 
 CC     =	gcc
 
