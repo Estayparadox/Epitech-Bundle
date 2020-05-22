@@ -8,17 +8,15 @@
 ## Last update Fri Feb 20 10:03:15 2015 Pereniguez Joseph
 ##
 
-SRC    =	main.c		\
-		my_allum.c	\
-		my_puts.c	\
-		my_param_c.c	\
-		my_pyramid.c	\
-		my_check_tab.c	\
-		my_funct.c	\
-		my_funct2.c	\
-		my_funct3.c	\
-		my_funct4.c	\
-		my_recap_aff.c
+SRC    =	sources/main.c		    \
+		    sources/player.c	    \
+		    sources/my_prints.c	    \
+		    sources/my_getnbr.c	    \
+		    sources/my_put_nbr.c	\
+		    sources/get_next_line.c	\
+		    sources/bot.c	        \
+		    sources/check.c	        \
+		    sources/display.c
 
 CC     =	gcc
 
